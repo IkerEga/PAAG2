@@ -1,9 +1,9 @@
-#Thu Sep 18 09:27:42 CEST 2025
-base.0=C\:\\Users\\egana.iker\\Desktop\\Multimedia programazioa\\MultiCounterV2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\egana.iker\\Desktop\\Multimedia programazioa\\MultiCounterV2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\egana.iker\\Desktop\\Multimedia programazioa\\MultiCounterV2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
-base.3=C\:\\Users\\egana.iker\\Desktop\\Multimedia programazioa\\MultiCounterV2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
-base.4=C\:\\Users\\egana.iker\\Desktop\\Multimedia programazioa\\MultiCounterV2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+#Tue Oct 14 12:05:09 CEST 2025
+base.0=C\:\\Github\\PAAG2\\Multimedia\\MultiCounterV2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Github\\PAAG2\\Multimedia\\MultiCounterV2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Github\\PAAG2\\Multimedia\\MultiCounterV2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
+base.3=C\:\\Github\\PAAG2\\Multimedia\\MultiCounterV2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
+base.4=C\:\\Github\\PAAG2\\Multimedia\\MultiCounterV2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=2/classes.dex

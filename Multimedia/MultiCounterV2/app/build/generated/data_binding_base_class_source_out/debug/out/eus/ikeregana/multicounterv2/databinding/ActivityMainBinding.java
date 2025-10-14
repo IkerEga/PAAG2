@@ -48,13 +48,52 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final Button btnResetAll;
 
-  @NonNull
+  /**
+   * This binding is not available in all configurations.
+   * <p>
+   * Present:
+   * <ul>
+   *   <li>layout-land/</li>
+   * </ul>
+   *
+   * Absent:
+   * <ul>
+   *   <li>layout/</li>
+   * </ul>
+   */
+  @Nullable
   public final Guideline guideRow1;
 
-  @NonNull
+  /**
+   * This binding is not available in all configurations.
+   * <p>
+   * Present:
+   * <ul>
+   *   <li>layout-land/</li>
+   * </ul>
+   *
+   * Absent:
+   * <ul>
+   *   <li>layout/</li>
+   * </ul>
+   */
+  @Nullable
   public final Guideline guideRow2;
 
-  @NonNull
+  /**
+   * This binding is not available in all configurations.
+   * <p>
+   * Present:
+   * <ul>
+   *   <li>layout-land/</li>
+   * </ul>
+   *
+   * Absent:
+   * <ul>
+   *   <li>layout/</li>
+   * </ul>
+   */
+  @Nullable
   public final Guideline guidelineCenter;
 
   @NonNull
@@ -78,8 +117,8 @@ public final class ActivityMainBinding implements ViewBinding {
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnGehitu5,
       @NonNull Button btnGehitu6, @NonNull Button btnGehitu7, @NonNull Button btnGehitu8,
       @NonNull Button btnReset1, @NonNull Button btnReset2, @NonNull Button btnReset3,
-      @NonNull Button btnReset4, @NonNull Button btnResetAll, @NonNull Guideline guideRow1,
-      @NonNull Guideline guideRow2, @NonNull Guideline guidelineCenter,
+      @NonNull Button btnReset4, @NonNull Button btnResetAll, @Nullable Guideline guideRow1,
+      @Nullable Guideline guideRow2, @Nullable Guideline guidelineCenter,
       @NonNull ConstraintLayout main, @NonNull TextView txtClickKopurua1,
       @NonNull TextView txtClickKopurua2, @NonNull TextView txtClickKopurua3,
       @NonNull TextView txtClickKopurua4, @NonNull TextView txtClickKopurua5) {
@@ -187,21 +226,12 @@ public final class ActivityMainBinding implements ViewBinding {
 
       id = R.id.guideRow1;
       Guideline guideRow1 = ViewBindings.findChildViewById(rootView, id);
-      if (guideRow1 == null) {
-        break missingId;
-      }
 
       id = R.id.guideRow2;
       Guideline guideRow2 = ViewBindings.findChildViewById(rootView, id);
-      if (guideRow2 == null) {
-        break missingId;
-      }
 
       id = R.id.guidelineCenter;
       Guideline guidelineCenter = ViewBindings.findChildViewById(rootView, id);
-      if (guidelineCenter == null) {
-        break missingId;
-      }
 
       ConstraintLayout main = (ConstraintLayout) rootView;
 

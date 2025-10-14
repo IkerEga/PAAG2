@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "eus.ikeregana.multicounterv2.app-mergeDebugResources-32:/values-night-v8/values-night-v8.xml",
+            "outputFile": "eus.ikeregana.multicounterv2.app-mergeDebugResources-2:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "C:\\Users\\egana.iker\\.gradle\\caches\\8.13\\transforms\\bde89b41eb009ec239022bc4694d805b\\transformed\\material-1.13.0\\res\\values-night-v8\\values-night-v8.xml",
@@ -38,14 +38,14 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\egana.iker\\Desktop\\Multimedia programazioa\\MultiCounterV2\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Github\\PAAG2\\Multimedia\\MultiCounterV2\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "100",
+                        "startOffsets": "102",
                         "endLines": "5",
                         "endColumns": "12",
-                        "endOffsets": "321"
+                        "endOffsets": "326"
                     },
                     "to": {
                         "startLines": "2",
