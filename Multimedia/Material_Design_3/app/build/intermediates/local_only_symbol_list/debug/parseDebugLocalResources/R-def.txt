@@ -1,0 +1,31 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color custom_primary
+color custom_secondary
+color white
+drawable baseline_add_circle_24
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable outline_add_home_24
+drawable outline_article_person_24
+id bottomNav
+id btnStart
+id chipGroup
+id etName
+id fab
+id main
+id materialCardView
+id nav_home
+id nav_profile
+id textInputLayoutName
+layout activity_main
+menu menu_bottom_nav
+menu menu_top_bar
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Material_Design_3
+style Theme.Material_Design_3
+xml backup_rules
+xml data_extraction_rules

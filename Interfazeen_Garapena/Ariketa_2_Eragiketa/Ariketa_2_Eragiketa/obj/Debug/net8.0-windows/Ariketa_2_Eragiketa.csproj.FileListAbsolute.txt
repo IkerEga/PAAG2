@@ -1,0 +1,17 @@
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa_2_Eragiketa\Ariketa_2_Eragiketa\bin\Debug\net8.0-windows\Ariketa_2_Eragiketa.exe
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa_2_Eragiketa\Ariketa_2_Eragiketa\bin\Debug\net8.0-windows\Ariketa_2_Eragiketa.deps.json
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa_2_Eragiketa\Ariketa_2_Eragiketa\bin\Debug\net8.0-windows\Ariketa_2_Eragiketa.runtimeconfig.json
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa_2_Eragiketa\Ariketa_2_Eragiketa\bin\Debug\net8.0-windows\Ariketa_2_Eragiketa.dll
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa_2_Eragiketa\Ariketa_2_Eragiketa\bin\Debug\net8.0-windows\Ariketa_2_Eragiketa.pdb
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa_2_Eragiketa\Ariketa_2_Eragiketa\obj\Debug\net8.0-windows\Ariketa_2_Eragiketa.Form1.resources
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa_2_Eragiketa\Ariketa_2_Eragiketa\obj\Debug\net8.0-windows\Ariketa_2_Eragiketa.csproj.GenerateResource.cache
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa_2_Eragiketa\Ariketa_2_Eragiketa\obj\Debug\net8.0-windows\Ariketa_2_Eragiketa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa_2_Eragiketa\Ariketa_2_Eragiketa\obj\Debug\net8.0-windows\Ariketa_2_Eragiketa.AssemblyInfoInputs.cache
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa_2_Eragiketa\Ariketa_2_Eragiketa\obj\Debug\net8.0-windows\Ariketa_2_Eragiketa.AssemblyInfo.cs
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa_2_Eragiketa\Ariketa_2_Eragiketa\obj\Debug\net8.0-windows\Ariketa_2_Eragiketa.csproj.CoreCompileInputs.cache
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa_2_Eragiketa\Ariketa_2_Eragiketa\obj\Debug\net8.0-windows\Ariketa_2_Eragiketa.sourcelink.json
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa_2_Eragiketa\Ariketa_2_Eragiketa\obj\Debug\net8.0-windows\Ariketa_2_Eragiketa.dll
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa_2_Eragiketa\Ariketa_2_Eragiketa\obj\Debug\net8.0-windows\refint\Ariketa_2_Eragiketa.dll
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa_2_Eragiketa\Ariketa_2_Eragiketa\obj\Debug\net8.0-windows\Ariketa_2_Eragiketa.pdb
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa_2_Eragiketa\Ariketa_2_Eragiketa\obj\Debug\net8.0-windows\Ariketa_2_Eragiketa.genruntimeconfig.cache
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa_2_Eragiketa\Ariketa_2_Eragiketa\obj\Debug\net8.0-windows\ref\Ariketa_2_Eragiketa.dll

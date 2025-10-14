@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AginteKoadroa", "AginteKoadroa\AginteKoadroa.csproj", "{05659F62-8BDA-466F-90FA-5D75B20CFFAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05659F62-8BDA-466F-90FA-5D75B20CFFAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05659F62-8BDA-466F-90FA-5D75B20CFFAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05659F62-8BDA-466F-90FA-5D75B20CFFAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05659F62-8BDA-466F-90FA-5D75B20CFFAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AC6274A-2C8A-4D09-84E1-2F93A8674AAC}
+	EndGlobalSection
+EndGlobal

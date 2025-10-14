@@ -1,0 +1,37 @@
+R_DEF: Internal format may change without notice
+local
+anim slide_in_left
+anim slide_in_right
+anim slide_out_left
+anim slide_out_right
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable onboarding1
+drawable onboarding2
+id action_onboarding1Fragment_to_onboarding2Fragment
+id action_onboarding2Fragment_to_homeFragment
+id botonFinalizar
+id botonSiguiente
+id homeFragment
+id imagen
+id main
+id nav_graph
+id nav_host_fragment
+id onboarding1Fragment
+id onboarding2Fragment
+id texto
+layout activity_main
+layout fragment_home
+layout fragment_onboarding1
+layout fragment_onboarding2
+mipmap ic_launcher
+mipmap ic_launcher_round
+navigation nav_graph
+string app_name
+string hello_blank_fragment
+style Base.Theme.Fragments
+style Theme.Fragments
+xml backup_rules
+xml data_extraction_rules

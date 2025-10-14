@@ -1,0 +1,11 @@
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\KaixoForms\KaixoForms\bin\Debug\KaixoForms.dll
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\KaixoForms\KaixoForms\bin\Debug\KaixoForms.pdb
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\KaixoForms\KaixoForms\bin\Debug\KaixoDLL.dll
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\KaixoForms\KaixoForms\bin\Debug\KaixoDLL.pdb
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\KaixoForms\KaixoForms\obj\Debug\KaixoForms.csproj.AssemblyReference.cache
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\KaixoForms\KaixoForms\obj\Debug\KaixoForms.UserControl1.resources
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\KaixoForms\KaixoForms\obj\Debug\KaixoForms.csproj.GenerateResource.cache
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\KaixoForms\KaixoForms\obj\Debug\KaixoForms.csproj.CoreCompileInputs.cache
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\KaixoForms\KaixoForms\obj\Debug\KaixoForms.csproj.Up2Date
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\KaixoForms\KaixoForms\obj\Debug\KaixoForms.dll
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\KaixoForms\KaixoForms\obj\Debug\KaixoForms.pdb

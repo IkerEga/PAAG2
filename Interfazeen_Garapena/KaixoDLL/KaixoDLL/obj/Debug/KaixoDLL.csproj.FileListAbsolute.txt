@@ -1,0 +1,6 @@
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\KaixoDLL\KaixoDLL\bin\Debug\KaixoDLL.dll
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\KaixoDLL\KaixoDLL\bin\Debug\KaixoDLL.pdb
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\KaixoDLL\KaixoDLL\obj\Debug\KaixoDLL.csproj.AssemblyReference.cache
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\KaixoDLL\KaixoDLL\obj\Debug\KaixoDLL.csproj.CoreCompileInputs.cache
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\KaixoDLL\KaixoDLL\obj\Debug\KaixoDLL.dll
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\KaixoDLL\KaixoDLL\obj\Debug\KaixoDLL.pdb

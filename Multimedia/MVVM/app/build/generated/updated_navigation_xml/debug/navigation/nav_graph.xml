@@ -1,0 +1,12 @@
+<navigation
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/nav_graph"
+app:startDestination="@id/myMortgageFragment" >
+<fragment
+    android:id="@+id/myMortgageFragment"
+    android:name="eus.ikeregana.mvvm.MyMortgageFragment"
+    android:label="Mortgage"
+    tools:layout="@layout/fragment_my_mortgage" />
+</navigation>

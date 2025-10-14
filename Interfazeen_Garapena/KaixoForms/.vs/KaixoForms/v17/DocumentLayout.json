@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\KaixoForms\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0A04F922-7A63-4242-92F3-A56FAF9367A7}|KaixoForms\\KaixoForms.csproj|c:\\users\\egana.iker\\source\\repos\\plataforma-anitzeko-aplikazioen-garapena-2\\interfazeen-garapena\\kaixoforms\\kaixoforms\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A04F922-7A63-4242-92F3-A56FAF9367A7}|KaixoForms\\KaixoForms.csproj|solutionrelative:kaixoforms\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A04F922-7A63-4242-92F3-A56FAF9367A7}|KaixoForms\\KaixoForms.csproj|c:\\users\\egana.iker\\source\\repos\\plataforma-anitzeko-aplikazioen-garapena-2\\interfazeen-garapena\\kaixoforms\\kaixoforms\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0A04F922-7A63-4242-92F3-A56FAF9367A7}|KaixoForms\\KaixoForms.csproj|solutionrelative:kaixoforms\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserControl1.cs",
+              "DocumentMoniker": "C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\KaixoForms\\KaixoForms\\UserControl1.cs",
+              "RelativeDocumentMoniker": "KaixoForms\\UserControl1.cs",
+              "ToolTip": "C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\KaixoForms\\KaixoForms\\UserControl1.cs",
+              "RelativeToolTip": "KaixoForms\\UserControl1.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T08:31:23.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserControl1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\KaixoForms\\KaixoForms\\UserControl1.cs",
+              "RelativeDocumentMoniker": "KaixoForms\\UserControl1.cs",
+              "ToolTip": "C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\KaixoForms\\KaixoForms\\UserControl1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "KaixoForms\\UserControl1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T08:30:31.184Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

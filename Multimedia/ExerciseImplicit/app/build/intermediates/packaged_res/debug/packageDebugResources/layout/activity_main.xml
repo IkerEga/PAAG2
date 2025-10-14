@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editUrl"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="http://developer.android.com"
+        android:inputType="textUri"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnOpenWebsite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OPEN WEBSITE"
+        app:layout_constraintTop_toBottomOf="@id/editUrl"
+        app:layout_constraintStart_toStartOf="@id/editUrl" />
+
+    <EditText
+        android:id="@+id/editLocation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Golden Gate Bridge"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@id/btnOpenWebsite"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/btnOpenLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OPEN LOCATION"
+        app:layout_constraintTop_toBottomOf="@id/editLocation"
+        app:layout_constraintStart_toStartOf="@id/editLocation" />
+
+    <EditText
+        android:id="@+id/editShareText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Kaixo!"
+        android:inputType="textMultiLine"
+        android:minLines="1"
+        android:maxLines="3"
+        app:layout_constraintTop_toBottomOf="@id/btnOpenLocation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/btnShareText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHARE THIS TEXT"
+        app:layout_constraintTop_toBottomOf="@id/editShareText"
+        app:layout_constraintStart_toStartOf="@id/editShareText" />
+
+    <Button
+        android:id="@+id/btnTakePhoto"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="TAKE A PHOTO"
+        app:layout_constraintTop_toBottomOf="@id/btnShareText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"/>
+
+    <ImageView
+        android:id="@+id/imagePreview"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:contentDescription=""
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toBottomOf="@id/btnTakePhoto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

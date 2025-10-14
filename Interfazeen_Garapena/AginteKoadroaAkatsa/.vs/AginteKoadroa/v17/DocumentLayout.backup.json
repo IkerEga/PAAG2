@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\AginteKoadroaAkatsa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05659F62-8BDA-466F-90FA-5D75B20CFFAC}|AginteKoadroa\\AginteKoadroa.csproj|c:\\users\\egana.iker\\source\\repos\\plataforma-anitzeko-aplikazioen-garapena-2\\interfazeen-garapena\\agintekoadroaakatsa\\agintekoadroa\\migrations\\202509301121598_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05659F62-8BDA-466F-90FA-5D75B20CFFAC}|AginteKoadroa\\AginteKoadroa.csproj|solutionrelative:agintekoadroa\\migrations\\202509301121598_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05659F62-8BDA-466F-90FA-5D75B20CFFAC}|AginteKoadroa\\AginteKoadroa.csproj|C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\AginteKoadroaAkatsa\\agintekoadroa\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05659F62-8BDA-466F-90FA-5D75B20CFFAC}|AginteKoadroa\\AginteKoadroa.csproj|solutionrelative:agintekoadroa\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05659F62-8BDA-466F-90FA-5D75B20CFFAC}|AginteKoadroa\\AginteKoadroa.csproj|C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\AginteKoadroaAkatsa\\agintekoadroa\\agintekoadroa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05659F62-8BDA-466F-90FA-5D75B20CFFAC}|AginteKoadroa\\AginteKoadroa.csproj|solutionrelative:agintekoadroa\\agintekoadroa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05659F62-8BDA-466F-90FA-5D75B20CFFAC}|AginteKoadroa\\AginteKoadroa.csproj|C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\AginteKoadroaAkatsa\\agintekoadroa\\models\\salmenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05659F62-8BDA-466F-90FA-5D75B20CFFAC}|AginteKoadroa\\AginteKoadroa.csproj|solutionrelative:agintekoadroa\\models\\salmenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05659F62-8BDA-466F-90FA-5D75B20CFFAC}|AginteKoadroa\\AginteKoadroa.csproj|C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\AginteKoadroaAkatsa\\agintekoadroa\\models\\bezeroa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05659F62-8BDA-466F-90FA-5D75B20CFFAC}|AginteKoadroa\\AginteKoadroa.csproj|solutionrelative:agintekoadroa\\models\\bezeroa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05659F62-8BDA-466F-90FA-5D75B20CFFAC}|AginteKoadroa\\AginteKoadroa.csproj|C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\AginteKoadroaAkatsa\\agintekoadroa\\models\\saltzailea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05659F62-8BDA-466F-90FA-5D75B20CFFAC}|AginteKoadroa\\AginteKoadroa.csproj|solutionrelative:agintekoadroa\\models\\saltzailea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05659F62-8BDA-466F-90FA-5D75B20CFFAC}|AginteKoadroa\\AginteKoadroa.csproj|C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\AginteKoadroaAkatsa\\agintekoadroa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05659F62-8BDA-466F-90FA-5D75B20CFFAC}|AginteKoadroa\\AginteKoadroa.csproj|solutionrelative:agintekoadroa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05659F62-8BDA-466F-90FA-5D75B20CFFAC}|AginteKoadroa\\AginteKoadroa.csproj|C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\AginteKoadroaAkatsa\\agintekoadroa\\models\\salmentadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05659F62-8BDA-466F-90FA-5D75B20CFFAC}|AginteKoadroa\\AginteKoadroa.csproj|solutionrelative:agintekoadroa\\models\\salmentadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05659F62-8BDA-466F-90FA-5D75B20CFFAC}|AginteKoadroa\\AginteKoadroa.csproj|C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\AginteKoadroaAkatsa\\agintekoadroa\\agintekoadroa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{05659F62-8BDA-466F-90FA-5D75B20CFFAC}|AginteKoadroa\\AginteKoadroa.csproj|solutionrelative:agintekoadroa\\agintekoadroa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AginteKoadroa.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\AginteKoadroaAkatsa\\AginteKoadroa\\AginteKoadroa.cs",
+              "RelativeDocumentMoniker": "AginteKoadroa\\AginteKoadroa.cs",
+              "ToolTip": "C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\AginteKoadroaAkatsa\\AginteKoadroa\\AginteKoadroa.cs [Dise\u00F1o]",
+              "RelativeToolTip": "AginteKoadroa\\AginteKoadroa.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T09:46:35.544Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "202509301121598_Inicial.cs",
+              "DocumentMoniker": "C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\AginteKoadroaAkatsa\\AginteKoadroa\\Migrations\\202509301121598_Inicial.cs",
+              "RelativeDocumentMoniker": "AginteKoadroa\\Migrations\\202509301121598_Inicial.cs",
+              "ToolTip": "C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\AginteKoadroaAkatsa\\AginteKoadroa\\Migrations\\202509301121598_Inicial.cs",
+              "RelativeToolTip": "AginteKoadroa\\Migrations\\202509301121598_Inicial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T11:22:02.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\AginteKoadroaAkatsa\\AginteKoadroa\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "AginteKoadroa\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\AginteKoadroaAkatsa\\AginteKoadroa\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "AginteKoadroa\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T11:21:06.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AginteKoadroa.cs",
+              "DocumentMoniker": "C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\AginteKoadroaAkatsa\\AginteKoadroa\\AginteKoadroa.cs",
+              "RelativeDocumentMoniker": "AginteKoadroa\\AginteKoadroa.cs",
+              "ToolTip": "C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\AginteKoadroaAkatsa\\AginteKoadroa\\AginteKoadroa.cs",
+              "RelativeToolTip": "AginteKoadroa\\AginteKoadroa.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAjwBcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T10:40:13.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\AginteKoadroaAkatsa\\AginteKoadroa\\Program.cs",
+              "RelativeDocumentMoniker": "AginteKoadroa\\Program.cs",
+              "ToolTip": "C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\AginteKoadroaAkatsa\\AginteKoadroa\\Program.cs",
+              "RelativeToolTip": "AginteKoadroa\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T10:54:54.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SalmentaDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\AginteKoadroaAkatsa\\AginteKoadroa\\Models\\SalmentaDbContext.cs",
+              "RelativeDocumentMoniker": "AginteKoadroa\\Models\\SalmentaDbContext.cs",
+              "ToolTip": "C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\AginteKoadroaAkatsa\\AginteKoadroa\\Models\\SalmentaDbContext.cs",
+              "RelativeToolTip": "AginteKoadroa\\Models\\SalmentaDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T10:40:20.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Bezeroa.cs",
+              "DocumentMoniker": "C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\AginteKoadroaAkatsa\\AginteKoadroa\\Models\\Bezeroa.cs",
+              "RelativeDocumentMoniker": "AginteKoadroa\\Models\\Bezeroa.cs",
+              "ToolTip": "C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\AginteKoadroaAkatsa\\AginteKoadroa\\Models\\Bezeroa.cs",
+              "RelativeToolTip": "AginteKoadroa\\Models\\Bezeroa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T10:35:33.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Salmenta.cs",
+              "DocumentMoniker": "C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\AginteKoadroaAkatsa\\AginteKoadroa\\Models\\Salmenta.cs",
+              "RelativeDocumentMoniker": "AginteKoadroa\\Models\\Salmenta.cs",
+              "ToolTip": "C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\AginteKoadroaAkatsa\\AginteKoadroa\\Models\\Salmenta.cs",
+              "RelativeToolTip": "AginteKoadroa\\Models\\Salmenta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:49:36.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Saltzailea.cs",
+              "DocumentMoniker": "C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\AginteKoadroaAkatsa\\AginteKoadroa\\Models\\Saltzailea.cs",
+              "RelativeDocumentMoniker": "AginteKoadroa\\Models\\Saltzailea.cs",
+              "ToolTip": "C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\AginteKoadroaAkatsa\\AginteKoadroa\\Models\\Saltzailea.cs",
+              "RelativeToolTip": "AginteKoadroa\\Models\\Saltzailea.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T10:06:20.555Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

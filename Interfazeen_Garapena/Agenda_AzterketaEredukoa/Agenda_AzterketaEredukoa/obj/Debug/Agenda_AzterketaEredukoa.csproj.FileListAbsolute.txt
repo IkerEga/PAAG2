@@ -1,0 +1,5 @@
+C:\Users\egana.iker\Desktop\IkerEga_PAAG3-2\Interfazeen_Garapena\Agenda_AzterketaEredukoa\Agenda_AzterketaEredukoa\obj\Debug\Agenda_AzterketaEredukoa.csproj.AssemblyReference.cache
+C:\Users\egana.iker\Desktop\IkerEga_PAAG3-2\Interfazeen_Garapena\Agenda_AzterketaEredukoa\Agenda_AzterketaEredukoa\obj\Debug\Agenda_AzterketaEredukoa.Form1.resources
+C:\Users\egana.iker\Desktop\IkerEga_PAAG3-2\Interfazeen_Garapena\Agenda_AzterketaEredukoa\Agenda_AzterketaEredukoa\obj\Debug\Agenda_AzterketaEredukoa.Properties.Resources.resources
+C:\Users\egana.iker\Desktop\IkerEga_PAAG3-2\Interfazeen_Garapena\Agenda_AzterketaEredukoa\Agenda_AzterketaEredukoa\obj\Debug\Agenda_AzterketaEredukoa.csproj.GenerateResource.cache
+C:\Users\egana.iker\Desktop\IkerEga_PAAG3-2\Interfazeen_Garapena\Agenda_AzterketaEredukoa\Agenda_AzterketaEredukoa\obj\Debug\Agenda_AzterketaEredukoa.csproj.CoreCompileInputs.cache

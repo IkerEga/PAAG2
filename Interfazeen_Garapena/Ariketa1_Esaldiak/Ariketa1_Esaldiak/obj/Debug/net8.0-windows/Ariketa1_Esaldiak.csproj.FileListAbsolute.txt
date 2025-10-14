@@ -1,0 +1,17 @@
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa1_Esaldiak\Ariketa1_Esaldiak\bin\Debug\net8.0-windows\Ariketa1_Esaldiak.exe
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa1_Esaldiak\Ariketa1_Esaldiak\bin\Debug\net8.0-windows\Ariketa1_Esaldiak.deps.json
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa1_Esaldiak\Ariketa1_Esaldiak\bin\Debug\net8.0-windows\Ariketa1_Esaldiak.runtimeconfig.json
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa1_Esaldiak\Ariketa1_Esaldiak\bin\Debug\net8.0-windows\Ariketa1_Esaldiak.dll
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa1_Esaldiak\Ariketa1_Esaldiak\bin\Debug\net8.0-windows\Ariketa1_Esaldiak.pdb
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa1_Esaldiak\Ariketa1_Esaldiak\obj\Debug\net8.0-windows\Ariketa1_Esaldiak.Form1.resources
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa1_Esaldiak\Ariketa1_Esaldiak\obj\Debug\net8.0-windows\Ariketa1_Esaldiak.csproj.GenerateResource.cache
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa1_Esaldiak\Ariketa1_Esaldiak\obj\Debug\net8.0-windows\Ariketa1_Esaldiak.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa1_Esaldiak\Ariketa1_Esaldiak\obj\Debug\net8.0-windows\Ariketa1_Esaldiak.AssemblyInfoInputs.cache
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa1_Esaldiak\Ariketa1_Esaldiak\obj\Debug\net8.0-windows\Ariketa1_Esaldiak.AssemblyInfo.cs
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa1_Esaldiak\Ariketa1_Esaldiak\obj\Debug\net8.0-windows\Ariketa1_Esaldiak.csproj.CoreCompileInputs.cache
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa1_Esaldiak\Ariketa1_Esaldiak\obj\Debug\net8.0-windows\Ariketa1_Esaldiak.sourcelink.json
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa1_Esaldiak\Ariketa1_Esaldiak\obj\Debug\net8.0-windows\Ariketa1_Esaldiak.dll
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa1_Esaldiak\Ariketa1_Esaldiak\obj\Debug\net8.0-windows\refint\Ariketa1_Esaldiak.dll
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa1_Esaldiak\Ariketa1_Esaldiak\obj\Debug\net8.0-windows\Ariketa1_Esaldiak.pdb
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa1_Esaldiak\Ariketa1_Esaldiak\obj\Debug\net8.0-windows\Ariketa1_Esaldiak.genruntimeconfig.cache
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\Ariketa1_Esaldiak\Ariketa1_Esaldiak\obj\Debug\net8.0-windows\ref\Ariketa1_Esaldiak.dll

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\egana.iker\\.gradle\\daemon\\8.13\\eus.ikeregana.mvvm.app-mergeDebugResources-44:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\egana.iker\\.gradle\\daemon\\8.13\\eus.ikeregana.mvvm.app-main-47:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\egana.iker\\.gradle\\daemon\\8.13\\eus.ikeregana.mvvm.app-mergeDebugResources-44:\\layout\\fragment_my_mortgage.xml",
+        "source": "C:\\Users\\egana.iker\\.gradle\\daemon\\8.13\\eus.ikeregana.mvvm.app-main-47:\\layout\\fragment_my_mortgage.xml"
+    },
+    {
+        "merged": "eus.ikeregana.mvvm.app-mergeDebugResources-44:/layout/fragment_my_mortgage.xml",
+        "source": "eus.ikeregana.mvvm.app-main-47:/layout/fragment_my_mortgage.xml"
+    }
+]

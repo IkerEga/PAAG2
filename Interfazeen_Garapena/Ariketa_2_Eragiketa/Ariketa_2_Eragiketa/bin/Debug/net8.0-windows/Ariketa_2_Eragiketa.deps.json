@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Ariketa_2_Eragiketa/1.0.0": {
+        "runtime": {
+          "Ariketa_2_Eragiketa.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ariketa_2_Eragiketa/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

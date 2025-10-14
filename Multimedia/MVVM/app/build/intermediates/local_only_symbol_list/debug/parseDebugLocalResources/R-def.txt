@@ -1,0 +1,25 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id calculate
+id calculating
+id capital
+id deadline
+id main
+id myMortgageFragment
+id nav_graph
+id nav_host_fragment
+id payment
+layout activity_main
+layout fragment_my_mortgage
+mipmap ic_launcher
+mipmap ic_launcher_round
+navigation nav_graph
+string app_name
+style Base.Theme.MVVM
+style Theme.MVVM
+xml backup_rules
+xml data_extraction_rules

@@ -1,0 +1,8 @@
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\GrafikoaDLL\GrafikoaDLL\bin\Debug\GrafikoaDLL.dll
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\GrafikoaDLL\GrafikoaDLL\bin\Debug\GrafikoaDLL.pdb
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\GrafikoaDLL\GrafikoaDLL\obj\Debug\GrafikoaDLL.csproj.AssemblyReference.cache
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\GrafikoaDLL\GrafikoaDLL\obj\Debug\GrafikoaDLL.Grafikoa.resources
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\GrafikoaDLL\GrafikoaDLL\obj\Debug\GrafikoaDLL.csproj.GenerateResource.cache
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\GrafikoaDLL\GrafikoaDLL\obj\Debug\GrafikoaDLL.csproj.CoreCompileInputs.cache
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\GrafikoaDLL\GrafikoaDLL\obj\Debug\GrafikoaDLL.dll
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\GrafikoaDLL\GrafikoaDLL\obj\Debug\GrafikoaDLL.pdb

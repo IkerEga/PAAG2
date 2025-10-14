@@ -1,0 +1,32 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnGehitu5
+id btnGehitu6
+id btnGehitu7
+id btnGehitu8
+id btnReset1
+id btnReset2
+id btnReset3
+id btnReset4
+id btnResetAll
+id main
+id txtClickKopurua1
+id txtClickKopurua2
+id txtClickKopurua3
+id txtClickKopurua4
+id txtClickKopurua5
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string btn_gehitu
+string btn_reset
+string btn_resetAll
+style Base.Theme.MultiCounterApp
+style Theme.MultiCounterApp
+xml backup_rules
+xml data_extraction_rules

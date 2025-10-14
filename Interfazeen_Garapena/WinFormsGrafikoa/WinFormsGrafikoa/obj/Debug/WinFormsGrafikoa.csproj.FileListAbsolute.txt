@@ -1,0 +1,11 @@
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\WinFormsGrafikoa\WinFormsGrafikoa\bin\Debug\WinFormsGrafikoa.dll
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\WinFormsGrafikoa\WinFormsGrafikoa\bin\Debug\WinFormsGrafikoa.pdb
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\WinFormsGrafikoa\WinFormsGrafikoa\bin\Debug\GrafikoaDLL.dll
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\WinFormsGrafikoa\WinFormsGrafikoa\bin\Debug\GrafikoaDLL.pdb
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\WinFormsGrafikoa\WinFormsGrafikoa\obj\Debug\WinFormsGrafikoa.csproj.AssemblyReference.cache
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\WinFormsGrafikoa\WinFormsGrafikoa\obj\Debug\WinFormsGrafikoa.csproj.GenerateResource.cache
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\WinFormsGrafikoa\WinFormsGrafikoa\obj\Debug\WinFormsGrafikoa.csproj.CoreCompileInputs.cache
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\WinFormsGrafikoa\WinFormsGrafikoa\obj\Debug\WinForms.E30B4468.Up2Date
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\WinFormsGrafikoa\WinFormsGrafikoa\obj\Debug\WinFormsGrafikoa.dll
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\WinFormsGrafikoa\WinFormsGrafikoa\obj\Debug\WinFormsGrafikoa.pdb
+C:\Users\egana.iker\source\repos\Plataforma-Anitzeko-Aplikazioen-Garapena-2\Interfazeen-Garapena\WinFormsGrafikoa\WinFormsGrafikoa\obj\Debug\WinFormsGrafikoa.Form1.resources

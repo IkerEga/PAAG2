@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "eus.ikeregana.fragments.app-mergeDebugResources-44:/layout/fragment_home.xml",
+        "source": "eus.ikeregana.fragments.app-main-47:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "eus.ikeregana.fragments.app-mergeDebugResources-44:/layout/activity_main.xml",
+        "source": "eus.ikeregana.fragments.app-main-47:/layout/activity_main.xml"
+    },
+    {
+        "merged": "eus.ikeregana.fragments.app-mergeDebugResources-44:/layout/fragment_onboarding1.xml",
+        "source": "eus.ikeregana.fragments.app-main-47:/layout/fragment_onboarding1.xml"
+    },
+    {
+        "merged": "eus.ikeregana.fragments.app-mergeDebugResources-44:/layout/fragment_onboarding2.xml",
+        "source": "eus.ikeregana.fragments.app-main-47:/layout/fragment_onboarding2.xml"
+    }
+]

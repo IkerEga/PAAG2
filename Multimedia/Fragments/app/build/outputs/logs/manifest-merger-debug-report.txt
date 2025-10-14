@@ -1,0 +1,342 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\egana.iker\Desktop\Multimedia programazioa\Fragments\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\egana.iker\Desktop\Multimedia programazioa\Fragments\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\egana.iker\Desktop\Multimedia programazioa\Fragments\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\egana.iker\Desktop\Multimedia programazioa\Fragments\app\src\main\AndroidManifest.xml:2:1-25:12
+MERGED from [androidx.databinding:viewbinding:8.13.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\ad528399f987b3be0b2ac9f8c4325ada\transformed\viewbinding-8.13.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-android:2.9.5] C:\Users\egana.iker\.gradle\caches\8.13\transforms\9b56c063759028c449f4e580a219931c\transformed\navigation-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-android:2.9.5] C:\Users\egana.iker\.gradle\caches\8.13\transforms\33546fe8723d4ecadb15f937dfd42bd8\transformed\navigation-common-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.9.5] C:\Users\egana.iker\.gradle\caches\8.13\transforms\4a9d6285088f6565df34e3073c2fae1b\transformed\navigation-fragment-2.9.5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-ui:2.9.5] C:\Users\egana.iker\.gradle\caches\8.13\transforms\f80138f67b3f949b8a9649bf0e6649f0\transformed\navigation-ui-2.9.5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\71b9ade73c88287385ec34868421dc65\transformed\material-1.13.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\0548d2c11cbca449cce1c9daf5022bc1\transformed\constraintlayout-2.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\5bda58b6be68029c514dd59ea0cb9d87\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\704d364767ec1a8814e57f31e6104de5\transformed\appcompat-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\7cc32f975ad3f269d6eb6def05b87cb4\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\egana.iker\.gradle\caches\8.13\transforms\3c570d7dbb254e6e5f247ee4879232a0\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\egana.iker\.gradle\caches\8.13\transforms\9a662540f2441d10705b772eb5d00169\transformed\fragment-1.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.11.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\34244bb6936caa53ee9363249719935f\transformed\activity-ktx-1.11.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.11.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\2fa62522580a5ea036507f93debeb69c\transformed\activity-1.11.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\54b363a5f795b6dcab3963781fd5049d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\cb27d2fb35cbad4f019c2fb0cfce47c4\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\8d17c8909d5f723d11d21c882da8f424\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\0574ec1a661510b94ef1a24abe852476\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\31fcd04e89740df55059e60926d563f6\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\763604d48b05209403e0d7a1785c3ba9\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\d0a3626c9111a74d003cb87564f231bc\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\844565859f4072cf85d4aff62dbf5728\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\eafc18fd5dc15950deeaec95ab27b7e5\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\e7de70b51ef9e0bc09dae86b27b605b7\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\596c843c7e92424b6366a8a0d1b7fb23\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\d12dd974d2c86bda8a901e5c6f4f41eb\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\638a0f07201fd19531a9ae26f66af5b7\transformed\lifecycle-runtime-ktx\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\afa4da685c5f468e640a8537e1e221c1\transformed\lifecycle-viewmodel-ktx-2.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\a0145d1ad62762742f5e5b367fbb4b62\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\be284b06350bb001d182a9ede29c5ba3\transformed\lifecycle-livedata-core-ktx-2.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\9edf828c747d8cdff8b9e5032993201d\transformed\lifecycle-livedata-core-2.9.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\f127d3906cd4c577fb85f73b7453c936\transformed\lifecycle-livedata-2.9.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\d633afc9010bb2c8cbb9ba97268ff16a\transformed\lifecycle-viewmodel-savedstate-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\b16bed6f478d1cf78c837c45b3f0b039\transformed\lifecycle-viewmodel-2.9.0\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\68defca4431fa5793f92f64bd9c21ee9\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.3.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\343ab9bac4d2c87521022856ffe0b565\transformed\savedstate-ktx-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-android:1.3.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\eab085c38afee862ad0562ae26d76a0a\transformed\savedstate-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\ca30c83c9cbb02ed0a52dc7949995cd0\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\fa8fddb0ee93bee0d6372d9216126e16\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\8b09dab83b73dc602c36192cec1285bc\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\6211a68b11c5169fed097e3321a67a9c\transformed\window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\03c2b7e2d46fcd3b4e693b2b3b5593e6\transformed\graphics-shapes-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\63f7396aa035e0460d17864a50a2e9a0\transformed\core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.13.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\1b39e806261a85eb01c1c5bf6dd510dd\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\2ef664e992adb25cb23b8b713f5864ea\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\22087d93fb91c2e835e53cb1e80a6c1e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\1cb9b61ee68a719957f13f0bc5dd8614\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\b1aa63e7bd9349f9eaea6a64c864c826\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\836483423a09f8be24502d85e3d1e6fd\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\2e021f3fd0f70fea0f9abaa16457c9f7\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\9f0f78d8a5401592a2328e9659580267\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\68f36d873456421e47f119584ec50149\transformed\core-viewtree-1.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\e1510fe6d836bcfc3f99684c73b4baf8\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from C:\Users\egana.iker\Desktop\Multimedia programazioa\Fragments\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\egana.iker\Desktop\Multimedia programazioa\Fragments\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\egana.iker\Desktop\Multimedia programazioa\Fragments\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\egana.iker\Desktop\Multimedia programazioa\Fragments\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\egana.iker\Desktop\Multimedia programazioa\Fragments\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\egana.iker\Desktop\Multimedia programazioa\Fragments\app\src\main\AndroidManifest.xml:5:5-23:19
+INJECTED from C:\Users\egana.iker\Desktop\Multimedia programazioa\Fragments\app\src\main\AndroidManifest.xml:5:5-23:19
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\71b9ade73c88287385ec34868421dc65\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\71b9ade73c88287385ec34868421dc65\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\0548d2c11cbca449cce1c9daf5022bc1\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\0548d2c11cbca449cce1c9daf5022bc1\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\8d17c8909d5f723d11d21c882da8f424\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\8d17c8909d5f723d11d21c882da8f424\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\a0145d1ad62762742f5e5b367fbb4b62\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\a0145d1ad62762742f5e5b367fbb4b62\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\6211a68b11c5169fed097e3321a67a9c\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\6211a68b11c5169fed097e3321a67a9c\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.13.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\1b39e806261a85eb01c1c5bf6dd510dd\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\1b39e806261a85eb01c1c5bf6dd510dd\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\22087d93fb91c2e835e53cb1e80a6c1e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\22087d93fb91c2e835e53cb1e80a6c1e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\1cb9b61ee68a719957f13f0bc5dd8614\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\1cb9b61ee68a719957f13f0bc5dd8614\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\2e021f3fd0f70fea0f9abaa16457c9f7\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\2e021f3fd0f70fea0f9abaa16457c9f7\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\egana.iker\Desktop\Multimedia programazioa\Fragments\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\1b39e806261a85eb01c1c5bf6dd510dd\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\egana.iker\Desktop\Multimedia programazioa\Fragments\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from C:\Users\egana.iker\Desktop\Multimedia programazioa\Fragments\app\src\main\AndroidManifest.xml:10:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\egana.iker\Desktop\Multimedia programazioa\Fragments\app\src\main\AndroidManifest.xml:8:9-54
+	android:roundIcon
+		ADDED from C:\Users\egana.iker\Desktop\Multimedia programazioa\Fragments\app\src\main\AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from C:\Users\egana.iker\Desktop\Multimedia programazioa\Fragments\app\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from C:\Users\egana.iker\Desktop\Multimedia programazioa\Fragments\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\egana.iker\Desktop\Multimedia programazioa\Fragments\app\src\main\AndroidManifest.xml:13:9-47
+	android:dataExtractionRules
+		ADDED from C:\Users\egana.iker\Desktop\Multimedia programazioa\Fragments\app\src\main\AndroidManifest.xml:7:9-65
+activity#eus.ikeregana.fragments.MainActivity
+ADDED from C:\Users\egana.iker\Desktop\Multimedia programazioa\Fragments\app\src\main\AndroidManifest.xml:14:9-22:20
+	android:exported
+		ADDED from C:\Users\egana.iker\Desktop\Multimedia programazioa\Fragments\app\src\main\AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from C:\Users\egana.iker\Desktop\Multimedia programazioa\Fragments\app\src\main\AndroidManifest.xml:15:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\egana.iker\Desktop\Multimedia programazioa\Fragments\app\src\main\AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\egana.iker\Desktop\Multimedia programazioa\Fragments\app\src\main\AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from C:\Users\egana.iker\Desktop\Multimedia programazioa\Fragments\app\src\main\AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\egana.iker\Desktop\Multimedia programazioa\Fragments\app\src\main\AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from C:\Users\egana.iker\Desktop\Multimedia programazioa\Fragments\app\src\main\AndroidManifest.xml:20:27-74
+uses-sdk
+INJECTED from C:\Users\egana.iker\Desktop\Multimedia programazioa\Fragments\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\egana.iker\Desktop\Multimedia programazioa\Fragments\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\egana.iker\Desktop\Multimedia programazioa\Fragments\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.13.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\ad528399f987b3be0b2ac9f8c4325ada\transformed\viewbinding-8.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.13.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\ad528399f987b3be0b2ac9f8c4325ada\transformed\viewbinding-8.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-android:2.9.5] C:\Users\egana.iker\.gradle\caches\8.13\transforms\9b56c063759028c449f4e580a219931c\transformed\navigation-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-android:2.9.5] C:\Users\egana.iker\.gradle\caches\8.13\transforms\9b56c063759028c449f4e580a219931c\transformed\navigation-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-android:2.9.5] C:\Users\egana.iker\.gradle\caches\8.13\transforms\33546fe8723d4ecadb15f937dfd42bd8\transformed\navigation-common-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-android:2.9.5] C:\Users\egana.iker\.gradle\caches\8.13\transforms\33546fe8723d4ecadb15f937dfd42bd8\transformed\navigation-common-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.9.5] C:\Users\egana.iker\.gradle\caches\8.13\transforms\4a9d6285088f6565df34e3073c2fae1b\transformed\navigation-fragment-2.9.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.9.5] C:\Users\egana.iker\.gradle\caches\8.13\transforms\4a9d6285088f6565df34e3073c2fae1b\transformed\navigation-fragment-2.9.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.9.5] C:\Users\egana.iker\.gradle\caches\8.13\transforms\f80138f67b3f949b8a9649bf0e6649f0\transformed\navigation-ui-2.9.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.9.5] C:\Users\egana.iker\.gradle\caches\8.13\transforms\f80138f67b3f949b8a9649bf0e6649f0\transformed\navigation-ui-2.9.5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\71b9ade73c88287385ec34868421dc65\transformed\material-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\71b9ade73c88287385ec34868421dc65\transformed\material-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\0548d2c11cbca449cce1c9daf5022bc1\transformed\constraintlayout-2.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\0548d2c11cbca449cce1c9daf5022bc1\transformed\constraintlayout-2.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\5bda58b6be68029c514dd59ea0cb9d87\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\5bda58b6be68029c514dd59ea0cb9d87\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\704d364767ec1a8814e57f31e6104de5\transformed\appcompat-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\704d364767ec1a8814e57f31e6104de5\transformed\appcompat-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\7cc32f975ad3f269d6eb6def05b87cb4\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\7cc32f975ad3f269d6eb6def05b87cb4\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\egana.iker\.gradle\caches\8.13\transforms\3c570d7dbb254e6e5f247ee4879232a0\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\egana.iker\.gradle\caches\8.13\transforms\3c570d7dbb254e6e5f247ee4879232a0\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\egana.iker\.gradle\caches\8.13\transforms\9a662540f2441d10705b772eb5d00169\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\egana.iker\.gradle\caches\8.13\transforms\9a662540f2441d10705b772eb5d00169\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.11.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\34244bb6936caa53ee9363249719935f\transformed\activity-ktx-1.11.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.11.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\34244bb6936caa53ee9363249719935f\transformed\activity-ktx-1.11.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.11.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\2fa62522580a5ea036507f93debeb69c\transformed\activity-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.11.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\2fa62522580a5ea036507f93debeb69c\transformed\activity-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\54b363a5f795b6dcab3963781fd5049d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\54b363a5f795b6dcab3963781fd5049d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\cb27d2fb35cbad4f019c2fb0cfce47c4\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\cb27d2fb35cbad4f019c2fb0cfce47c4\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\8d17c8909d5f723d11d21c882da8f424\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\8d17c8909d5f723d11d21c882da8f424\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\0574ec1a661510b94ef1a24abe852476\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\0574ec1a661510b94ef1a24abe852476\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\31fcd04e89740df55059e60926d563f6\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\31fcd04e89740df55059e60926d563f6\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\763604d48b05209403e0d7a1785c3ba9\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\763604d48b05209403e0d7a1785c3ba9\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\d0a3626c9111a74d003cb87564f231bc\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\d0a3626c9111a74d003cb87564f231bc\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\844565859f4072cf85d4aff62dbf5728\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\844565859f4072cf85d4aff62dbf5728\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\eafc18fd5dc15950deeaec95ab27b7e5\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\eafc18fd5dc15950deeaec95ab27b7e5\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\e7de70b51ef9e0bc09dae86b27b605b7\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\e7de70b51ef9e0bc09dae86b27b605b7\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\596c843c7e92424b6366a8a0d1b7fb23\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\596c843c7e92424b6366a8a0d1b7fb23\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\d12dd974d2c86bda8a901e5c6f4f41eb\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\d12dd974d2c86bda8a901e5c6f4f41eb\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\638a0f07201fd19531a9ae26f66af5b7\transformed\lifecycle-runtime-ktx\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\638a0f07201fd19531a9ae26f66af5b7\transformed\lifecycle-runtime-ktx\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\afa4da685c5f468e640a8537e1e221c1\transformed\lifecycle-viewmodel-ktx-2.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\afa4da685c5f468e640a8537e1e221c1\transformed\lifecycle-viewmodel-ktx-2.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\a0145d1ad62762742f5e5b367fbb4b62\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\a0145d1ad62762742f5e5b367fbb4b62\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\be284b06350bb001d182a9ede29c5ba3\transformed\lifecycle-livedata-core-ktx-2.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\be284b06350bb001d182a9ede29c5ba3\transformed\lifecycle-livedata-core-ktx-2.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\9edf828c747d8cdff8b9e5032993201d\transformed\lifecycle-livedata-core-2.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\9edf828c747d8cdff8b9e5032993201d\transformed\lifecycle-livedata-core-2.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\f127d3906cd4c577fb85f73b7453c936\transformed\lifecycle-livedata-2.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\f127d3906cd4c577fb85f73b7453c936\transformed\lifecycle-livedata-2.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\d633afc9010bb2c8cbb9ba97268ff16a\transformed\lifecycle-viewmodel-savedstate-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\d633afc9010bb2c8cbb9ba97268ff16a\transformed\lifecycle-viewmodel-savedstate-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\b16bed6f478d1cf78c837c45b3f0b039\transformed\lifecycle-viewmodel-2.9.0\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\b16bed6f478d1cf78c837c45b3f0b039\transformed\lifecycle-viewmodel-2.9.0\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\68defca4431fa5793f92f64bd9c21ee9\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\68defca4431fa5793f92f64bd9c21ee9\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.3.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\343ab9bac4d2c87521022856ffe0b565\transformed\savedstate-ktx-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.3.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\343ab9bac4d2c87521022856ffe0b565\transformed\savedstate-ktx-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.3.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\eab085c38afee862ad0562ae26d76a0a\transformed\savedstate-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.3.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\eab085c38afee862ad0562ae26d76a0a\transformed\savedstate-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\ca30c83c9cbb02ed0a52dc7949995cd0\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\ca30c83c9cbb02ed0a52dc7949995cd0\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\fa8fddb0ee93bee0d6372d9216126e16\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\fa8fddb0ee93bee0d6372d9216126e16\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\8b09dab83b73dc602c36192cec1285bc\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\8b09dab83b73dc602c36192cec1285bc\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\6211a68b11c5169fed097e3321a67a9c\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\6211a68b11c5169fed097e3321a67a9c\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\03c2b7e2d46fcd3b4e693b2b3b5593e6\transformed\graphics-shapes-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\03c2b7e2d46fcd3b4e693b2b3b5593e6\transformed\graphics-shapes-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\63f7396aa035e0460d17864a50a2e9a0\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\63f7396aa035e0460d17864a50a2e9a0\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\1b39e806261a85eb01c1c5bf6dd510dd\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\1b39e806261a85eb01c1c5bf6dd510dd\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\2ef664e992adb25cb23b8b713f5864ea\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\2ef664e992adb25cb23b8b713f5864ea\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\22087d93fb91c2e835e53cb1e80a6c1e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\22087d93fb91c2e835e53cb1e80a6c1e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\1cb9b61ee68a719957f13f0bc5dd8614\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\1cb9b61ee68a719957f13f0bc5dd8614\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\b1aa63e7bd9349f9eaea6a64c864c826\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\b1aa63e7bd9349f9eaea6a64c864c826\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\836483423a09f8be24502d85e3d1e6fd\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\836483423a09f8be24502d85e3d1e6fd\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\2e021f3fd0f70fea0f9abaa16457c9f7\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\2e021f3fd0f70fea0f9abaa16457c9f7\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\9f0f78d8a5401592a2328e9659580267\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\9f0f78d8a5401592a2328e9659580267\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\68f36d873456421e47f119584ec50149\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\68f36d873456421e47f119584ec50149\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\e1510fe6d836bcfc3f99684c73b4baf8\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\e1510fe6d836bcfc3f99684c73b4baf8\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\egana.iker\Desktop\Multimedia programazioa\Fragments\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\egana.iker\Desktop\Multimedia programazioa\Fragments\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\8d17c8909d5f723d11d21c882da8f424\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\a0145d1ad62762742f5e5b367fbb4b62\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\a0145d1ad62762742f5e5b367fbb4b62\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\22087d93fb91c2e835e53cb1e80a6c1e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\22087d93fb91c2e835e53cb1e80a6c1e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\1cb9b61ee68a719957f13f0bc5dd8614\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\1cb9b61ee68a719957f13f0bc5dd8614\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\8d17c8909d5f723d11d21c882da8f424\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\8d17c8909d5f723d11d21c882da8f424\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\8d17c8909d5f723d11d21c882da8f424\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\8d17c8909d5f723d11d21c882da8f424\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\8d17c8909d5f723d11d21c882da8f424\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\8d17c8909d5f723d11d21c882da8f424\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\8d17c8909d5f723d11d21c882da8f424\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\a0145d1ad62762742f5e5b367fbb4b62\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\a0145d1ad62762742f5e5b367fbb4b62\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\a0145d1ad62762742f5e5b367fbb4b62\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:30:17-78
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\6211a68b11c5169fed097e3321a67a9c\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\6211a68b11c5169fed097e3321a67a9c\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\6211a68b11c5169fed097e3321a67a9c\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\6211a68b11c5169fed097e3321a67a9c\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\6211a68b11c5169fed097e3321a67a9c\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\6211a68b11c5169fed097e3321a67a9c\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\1b39e806261a85eb01c1c5bf6dd510dd\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\1b39e806261a85eb01c1c5bf6dd510dd\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\1b39e806261a85eb01c1c5bf6dd510dd\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+permission#eus.ikeregana.fragments.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\1b39e806261a85eb01c1c5bf6dd510dd\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\1b39e806261a85eb01c1c5bf6dd510dd\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\1b39e806261a85eb01c1c5bf6dd510dd\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\1b39e806261a85eb01c1c5bf6dd510dd\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\1b39e806261a85eb01c1c5bf6dd510dd\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+uses-permission#eus.ikeregana.fragments.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\1b39e806261a85eb01c1c5bf6dd510dd\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\egana.iker\.gradle\caches\8.13\transforms\1b39e806261a85eb01c1c5bf6dd510dd\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\22087d93fb91c2e835e53cb1e80a6c1e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\22087d93fb91c2e835e53cb1e80a6c1e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\22087d93fb91c2e835e53cb1e80a6c1e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\22087d93fb91c2e835e53cb1e80a6c1e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\22087d93fb91c2e835e53cb1e80a6c1e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\22087d93fb91c2e835e53cb1e80a6c1e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\22087d93fb91c2e835e53cb1e80a6c1e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\22087d93fb91c2e835e53cb1e80a6c1e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\22087d93fb91c2e835e53cb1e80a6c1e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\22087d93fb91c2e835e53cb1e80a6c1e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\22087d93fb91c2e835e53cb1e80a6c1e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\22087d93fb91c2e835e53cb1e80a6c1e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\22087d93fb91c2e835e53cb1e80a6c1e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\22087d93fb91c2e835e53cb1e80a6c1e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\22087d93fb91c2e835e53cb1e80a6c1e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\22087d93fb91c2e835e53cb1e80a6c1e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\22087d93fb91c2e835e53cb1e80a6c1e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\22087d93fb91c2e835e53cb1e80a6c1e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\22087d93fb91c2e835e53cb1e80a6c1e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\22087d93fb91c2e835e53cb1e80a6c1e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\egana.iker\.gradle\caches\8.13\transforms\22087d93fb91c2e835e53cb1e80a6c1e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92

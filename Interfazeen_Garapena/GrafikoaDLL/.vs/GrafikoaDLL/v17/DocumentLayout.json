@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\GrafikoaDLL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1F140B06-F794-43F6-9955-EEE8963DD827}|GrafikoaDLL\\GrafikoaDLL.csproj|c:\\users\\egana.iker\\source\\repos\\plataforma-anitzeko-aplikazioen-garapena-2\\interfazeen-garapena\\grafikoadll\\grafikoadll\\grafikoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F140B06-F794-43F6-9955-EEE8963DD827}|GrafikoaDLL\\GrafikoaDLL.csproj|solutionrelative:grafikoadll\\grafikoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F140B06-F794-43F6-9955-EEE8963DD827}|GrafikoaDLL\\GrafikoaDLL.csproj|C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\GrafikoaDLL\\grafikoadll\\grafikoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F140B06-F794-43F6-9955-EEE8963DD827}|GrafikoaDLL\\GrafikoaDLL.csproj|solutionrelative:grafikoadll\\grafikoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Grafikoa.cs",
+              "DocumentMoniker": "C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\GrafikoaDLL\\GrafikoaDLL\\Grafikoa.cs",
+              "RelativeDocumentMoniker": "GrafikoaDLL\\Grafikoa.cs",
+              "ToolTip": "C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\GrafikoaDLL\\GrafikoaDLL\\Grafikoa.cs",
+              "RelativeToolTip": "GrafikoaDLL\\Grafikoa.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvw0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T08:37:54.029Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Grafikoa.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\GrafikoaDLL\\GrafikoaDLL\\Grafikoa.cs",
+              "RelativeDocumentMoniker": "GrafikoaDLL\\Grafikoa.cs",
+              "ToolTip": "C:\\Users\\egana.iker\\source\\repos\\Plataforma-Anitzeko-Aplikazioen-Garapena-2\\Interfazeen-Garapena\\GrafikoaDLL\\GrafikoaDLL\\Grafikoa.cs [Dise\u00F1o]",
+              "RelativeToolTip": "GrafikoaDLL\\Grafikoa.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T08:36:32.509Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

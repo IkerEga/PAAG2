@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f6f6"
+    tools:context=".TrainerFragment">
+
+    <ImageView
+        android:id="@+id/exercise"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"/>
+
+
+    <TextView
+        android:id="@+id/repetition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/change"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ddee44"
+        android:gravity="center"
+        android:text="CHANGE"
+        android:textColor="@android:color/white"
+        android:textSize="48sp"
+        android:visibility="gone" />
+
+</FrameLayout>
