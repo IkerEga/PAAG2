@@ -1,17 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\egana.iker\\Desktop\\IkerEga_PAAG3-2\\Interfazeen_Garapena\\Agenda_AzterketaEredukoa\\",
+  "WorkspaceRootPath": "C:\\Github\\PAAG2\\Interfazeen_Garapena\\Agenda_AzterketaEredukoa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4360707E-7515-42C3-BFE0-935CC69B1B38}|Agenda_AzterketaEredukoa\\Agenda_AzterketaEredukoa.csproj|c:\\users\\egana.iker\\desktop\\ikerega_paag3-2\\interfazeen_garapena\\agenda_azterketaeredukoa\\agenda_azterketaeredukoa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4360707E-7515-42C3-BFE0-935CC69B1B38}|Agenda_AzterketaEredukoa\\Agenda_AzterketaEredukoa.csproj|c:\\github\\paag2\\interfazeen_garapena\\agenda_azterketaeredukoa\\agenda_azterketaeredukoa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4360707E-7515-42C3-BFE0-935CC69B1B38}|Agenda_AzterketaEredukoa\\Agenda_AzterketaEredukoa.csproj|solutionrelative:agenda_azterketaeredukoa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4360707E-7515-42C3-BFE0-935CC69B1B38}|Agenda_AzterketaEredukoa\\Agenda_AzterketaEredukoa.csproj|C:\\Users\\egana.iker\\Desktop\\IkerEga_PAAG3-2\\Interfazeen_Garapena\\Agenda_AzterketaEredukoa\\agenda_azterketaeredukoa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4360707E-7515-42C3-BFE0-935CC69B1B38}|Agenda_AzterketaEredukoa\\Agenda_AzterketaEredukoa.csproj|C:\\Github\\PAAG2\\Interfazeen_Garapena\\Agenda_AzterketaEredukoa\\agenda_azterketaeredukoa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4360707E-7515-42C3-BFE0-935CC69B1B38}|Agenda_AzterketaEredukoa\\Agenda_AzterketaEredukoa.csproj|solutionrelative:agenda_azterketaeredukoa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4360707E-7515-42C3-BFE0-935CC69B1B38}|Agenda_AzterketaEredukoa\\Agenda_AzterketaEredukoa.csproj|C:\\Users\\egana.iker\\Desktop\\IkerEga_PAAG3-2\\Interfazeen_Garapena\\Agenda_AzterketaEredukoa\\agenda_azterketaeredukoa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4360707E-7515-42C3-BFE0-935CC69B1B38}|Agenda_AzterketaEredukoa\\Agenda_AzterketaEredukoa.csproj|c:\\github\\paag2\\interfazeen_garapena\\agenda_azterketaeredukoa\\agenda_azterketaeredukoa\\ikusiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4360707E-7515-42C3-BFE0-935CC69B1B38}|Agenda_AzterketaEredukoa\\Agenda_AzterketaEredukoa.csproj|solutionrelative:agenda_azterketaeredukoa\\ikusiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4360707E-7515-42C3-BFE0-935CC69B1B38}|Agenda_AzterketaEredukoa\\Agenda_AzterketaEredukoa.csproj|c:\\github\\paag2\\interfazeen_garapena\\agenda_azterketaeredukoa\\agenda_azterketaeredukoa\\ikusiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4360707E-7515-42C3-BFE0-935CC69B1B38}|Agenda_AzterketaEredukoa\\Agenda_AzterketaEredukoa.csproj|solutionrelative:agenda_azterketaeredukoa\\ikusiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4360707E-7515-42C3-BFE0-935CC69B1B38}|Agenda_AzterketaEredukoa\\Agenda_AzterketaEredukoa.csproj|C:\\Github\\PAAG2\\Interfazeen_Garapena\\Agenda_AzterketaEredukoa\\agenda_azterketaeredukoa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4360707E-7515-42C3-BFE0-935CC69B1B38}|Agenda_AzterketaEredukoa\\Agenda_AzterketaEredukoa.csproj|solutionrelative:agenda_azterketaeredukoa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,13 +38,38 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IkusiForm.cs",
+              "DocumentMoniker": "C:\\Github\\PAAG2\\Interfazeen_Garapena\\Agenda_AzterketaEredukoa\\Agenda_AzterketaEredukoa\\IkusiForm.cs",
+              "RelativeDocumentMoniker": "Agenda_AzterketaEredukoa\\IkusiForm.cs",
+              "ToolTip": "C:\\Github\\PAAG2\\Interfazeen_Garapena\\Agenda_AzterketaEredukoa\\Agenda_AzterketaEredukoa\\IkusiForm.cs",
+              "RelativeToolTip": "Agenda_AzterketaEredukoa\\IkusiForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T10:55:47.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IkusiForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Github\\PAAG2\\Interfazeen_Garapena\\Agenda_AzterketaEredukoa\\Agenda_AzterketaEredukoa\\IkusiForm.cs",
+              "RelativeDocumentMoniker": "Agenda_AzterketaEredukoa\\IkusiForm.cs",
+              "ToolTip": "C:\\Github\\PAAG2\\Interfazeen_Garapena\\Agenda_AzterketaEredukoa\\Agenda_AzterketaEredukoa\\IkusiForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Agenda_AzterketaEredukoa\\IkusiForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T10:53:47.252Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\egana.iker\\Desktop\\IkerEga_PAAG3-2\\Interfazeen_Garapena\\Agenda_AzterketaEredukoa\\Agenda_AzterketaEredukoa\\Form1.cs",
+              "DocumentMoniker": "C:\\Github\\PAAG2\\Interfazeen_Garapena\\Agenda_AzterketaEredukoa\\Agenda_AzterketaEredukoa\\Form1.cs",
               "RelativeDocumentMoniker": "Agenda_AzterketaEredukoa\\Form1.cs",
-              "ToolTip": "C:\\Users\\egana.iker\\Desktop\\IkerEga_PAAG3-2\\Interfazeen_Garapena\\Agenda_AzterketaEredukoa\\Agenda_AzterketaEredukoa\\Form1.cs",
-              "RelativeToolTip": "Agenda_AzterketaEredukoa\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Github\\PAAG2\\Interfazeen_Garapena\\Agenda_AzterketaEredukoa\\Agenda_AzterketaEredukoa\\Form1.cs*",
+              "RelativeToolTip": "Agenda_AzterketaEredukoa\\Form1.cs*",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwDQAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-09T07:36:29.268Z",
               "EditorCaption": ""
@@ -45,20 +78,21 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\egana.iker\\Desktop\\IkerEga_PAAG3-2\\Interfazeen_Garapena\\Agenda_AzterketaEredukoa\\Agenda_AzterketaEredukoa\\Form1.cs",
+              "DocumentMoniker": "C:\\Github\\PAAG2\\Interfazeen_Garapena\\Agenda_AzterketaEredukoa\\Agenda_AzterketaEredukoa\\Form1.cs",
               "RelativeDocumentMoniker": "Agenda_AzterketaEredukoa\\Form1.cs",
-              "ToolTip": "C:\\Users\\egana.iker\\Desktop\\IkerEga_PAAG3-2\\Interfazeen_Garapena\\Agenda_AzterketaEredukoa\\Agenda_AzterketaEredukoa\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Agenda_AzterketaEredukoa\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Github\\PAAG2\\Interfazeen_Garapena\\Agenda_AzterketaEredukoa\\Agenda_AzterketaEredukoa\\Form1.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "Agenda_AzterketaEredukoa\\Form1.cs [Dise\u00F1o]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T07:36:27.39Z"
+              "WhenOpened": "2025-10-09T07:36:27.39Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\egana.iker\\Desktop\\IkerEga_PAAG3-2\\Interfazeen_Garapena\\Agenda_AzterketaEredukoa\\Agenda_AzterketaEredukoa\\Program.cs",
+              "DocumentMoniker": "C:\\Github\\PAAG2\\Interfazeen_Garapena\\Agenda_AzterketaEredukoa\\Agenda_AzterketaEredukoa\\Program.cs",
               "RelativeDocumentMoniker": "Agenda_AzterketaEredukoa\\Program.cs",
-              "ToolTip": "C:\\Users\\egana.iker\\Desktop\\IkerEga_PAAG3-2\\Interfazeen_Garapena\\Agenda_AzterketaEredukoa\\Agenda_AzterketaEredukoa\\Program.cs",
+              "ToolTip": "C:\\Github\\PAAG2\\Interfazeen_Garapena\\Agenda_AzterketaEredukoa\\Agenda_AzterketaEredukoa\\Program.cs",
               "RelativeToolTip": "Agenda_AzterketaEredukoa\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

@@ -149,6 +149,7 @@
             this.btnIkusi.TabIndex = 11;
             this.btnIkusi.Text = "IKUSI";
             this.btnIkusi.UseVisualStyleBackColor = true;
+            this.btnIkusi.Click += new System.EventHandler(this.btnIkusi_Click);
             // 
             // btnBilatu
             // 
@@ -159,6 +160,7 @@
             this.btnBilatu.TabIndex = 12;
             this.btnBilatu.Text = "BILATU";
             this.btnBilatu.UseVisualStyleBackColor = true;
+            this.btnBilatu.Click += new System.EventHandler(this.btnBilatu_Click);
             // 
             // Form1
             // 

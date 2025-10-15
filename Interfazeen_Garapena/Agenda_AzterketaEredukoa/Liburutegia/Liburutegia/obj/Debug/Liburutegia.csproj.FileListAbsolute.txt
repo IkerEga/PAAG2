@@ -4,3 +4,9 @@ C:\Users\egana.iker\IkerEga_PAAG3-2\Interfazeen_Garapena\Agenda_AzterketaEreduko
 C:\Users\egana.iker\IkerEga_PAAG3-2\Interfazeen_Garapena\Agenda_AzterketaEredukoa\Liburutegia\Liburutegia\obj\Debug\Liburutegia.csproj.CoreCompileInputs.cache
 C:\Users\egana.iker\IkerEga_PAAG3-2\Interfazeen_Garapena\Agenda_AzterketaEredukoa\Liburutegia\Liburutegia\obj\Debug\Liburutegia.dll
 C:\Users\egana.iker\IkerEga_PAAG3-2\Interfazeen_Garapena\Agenda_AzterketaEredukoa\Liburutegia\Liburutegia\obj\Debug\Liburutegia.pdb
+C:\Github\PAAG2\Interfazeen_Garapena\Agenda_AzterketaEredukoa\Liburutegia\Liburutegia\bin\Debug\Liburutegia.dll
+C:\Github\PAAG2\Interfazeen_Garapena\Agenda_AzterketaEredukoa\Liburutegia\Liburutegia\bin\Debug\Liburutegia.pdb
+C:\Github\PAAG2\Interfazeen_Garapena\Agenda_AzterketaEredukoa\Liburutegia\Liburutegia\obj\Debug\Liburutegia.csproj.AssemblyReference.cache
+C:\Github\PAAG2\Interfazeen_Garapena\Agenda_AzterketaEredukoa\Liburutegia\Liburutegia\obj\Debug\Liburutegia.csproj.CoreCompileInputs.cache
+C:\Github\PAAG2\Interfazeen_Garapena\Agenda_AzterketaEredukoa\Liburutegia\Liburutegia\obj\Debug\Liburutegia.dll
+C:\Github\PAAG2\Interfazeen_Garapena\Agenda_AzterketaEredukoa\Liburutegia\Liburutegia\obj\Debug\Liburutegia.pdb
