@@ -1,6 +1,0 @@
-C:\Users\egana.iker\IkerEga_PAAG3-2\Interfazeen_Garapena\Agenda_AzterketaEredukoa\Liburutegia(REAL)\Liburutegia(REAL)\bin\Debug\Liburutegia(REAL).dll
-C:\Users\egana.iker\IkerEga_PAAG3-2\Interfazeen_Garapena\Agenda_AzterketaEredukoa\Liburutegia(REAL)\Liburutegia(REAL)\bin\Debug\Liburutegia(REAL).pdb
-C:\Users\egana.iker\IkerEga_PAAG3-2\Interfazeen_Garapena\Agenda_AzterketaEredukoa\Liburutegia(REAL)\Liburutegia(REAL)\obj\Debug\Liburutegia(REAL).csproj.AssemblyReference.cache
-C:\Users\egana.iker\IkerEga_PAAG3-2\Interfazeen_Garapena\Agenda_AzterketaEredukoa\Liburutegia(REAL)\Liburutegia(REAL)\obj\Debug\Liburutegia(REAL).csproj.CoreCompileInputs.cache
-C:\Users\egana.iker\IkerEga_PAAG3-2\Interfazeen_Garapena\Agenda_AzterketaEredukoa\Liburutegia(REAL)\Liburutegia(REAL)\obj\Debug\Liburutegia(REAL).dll
-C:\Users\egana.iker\IkerEga_PAAG3-2\Interfazeen_Garapena\Agenda_AzterketaEredukoa\Liburutegia(REAL)\Liburutegia(REAL)\obj\Debug\Liburutegia(REAL).pdb
