@@ -43,7 +43,7 @@ public class Panaderia_con_semaforos {
 
         public int coger() throws InterruptedException {
 
-            full.acquire();;
+            full.acquire();
             mutex.acquire();
             int pan;
 

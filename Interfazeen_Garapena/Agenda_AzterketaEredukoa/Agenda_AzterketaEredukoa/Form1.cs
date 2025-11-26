@@ -22,6 +22,9 @@ namespace Agenda_AzterketaEredukoa
             comboBoxGeneroa.Items.Add(Generoa.Bestelakoa);
             comboBoxGeneroa.SelectedIndex = 0; // valor por defecto
             comboBoxGeneroa.DropDownStyle = ComboBoxStyle.DropDownList; // no permitir escribir
+
+            AdibidezkoKontaktuak();
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -138,8 +141,53 @@ namespace Agenda_AzterketaEredukoa
             comboBoxGeneroa.SelectedIndex = 0; // Ezezaguna
             txtIzena.Focus();
         }
+
+        private void btnGrafikoak_Click(object sender, EventArgs e)
+        {
+            var f = new GrafikoakForm(_contactos);
+            f.ShowDialog(this);
+        }
+
+        private void AdibidezkoKontaktuak()
+        { 
+
+            Contacto c1 = new Contacto();
+            c1.Izena = "Ane";
+            c1.Abizena = "Etxeberria";
+            c1.Prefijoa = "+34";
+            c1.Telefonoa = "600111111";
+            c1.Generoa = Generoa.Emakumea;
+            _contactos.Add(c1);
+
+            Contacto c2 = new Contacto();
+            c2.Izena = "Jon";
+            c2.Abizena = "Gomez";
+            c2.Prefijoa = "+34";
+            c2.Telefonoa = "600222222";
+            c2.Generoa = Generoa.Gizona;
+            _contactos.Add(c2);
+
+            Contacto c3 = new Contacto();
+            c3.Izena = "Mikel";
+            c3.Abizena = "Perez";
+            c3.Prefijoa = "+33";
+            c3.Telefonoa = "600333333";
+            c3.Generoa = Generoa.Gizona;
+            _contactos.Add(c3);
+
+            Contacto c4 = new Contacto();
+            c4.Izena = "Laura";
+            c4.Abizena = "Lopez";
+            c4.Prefijoa = "+49";
+            c4.Telefonoa = "600444444";
+            c4.Generoa = Generoa.Emakumea;
+            _contactos.Add(c4);
+        }
+
     }
 }
+
+
 
 
 

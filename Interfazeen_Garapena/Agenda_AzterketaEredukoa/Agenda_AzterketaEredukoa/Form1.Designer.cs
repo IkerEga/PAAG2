@@ -41,6 +41,7 @@
             this.btnGorde = new System.Windows.Forms.Button();
             this.btnIkusi = new System.Windows.Forms.Button();
             this.btnBilatu = new System.Windows.Forms.Button();
+            this.btnGrafikoak = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbIzena
@@ -162,11 +163,23 @@
             this.btnBilatu.UseVisualStyleBackColor = true;
             this.btnBilatu.Click += new System.EventHandler(this.btnBilatu_Click);
             // 
+            // btnGrafikoak
+            // 
+            this.btnGrafikoak.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGrafikoak.Location = new System.Drawing.Point(287, 387);
+            this.btnGrafikoak.Name = "btnGrafikoak";
+            this.btnGrafikoak.Size = new System.Drawing.Size(159, 47);
+            this.btnGrafikoak.TabIndex = 13;
+            this.btnGrafikoak.Text = "GRAFIKOAK";
+            this.btnGrafikoak.UseVisualStyleBackColor = true;
+            this.btnGrafikoak.Click += new System.EventHandler(this.btnGrafikoak_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 520);
+            this.Controls.Add(this.btnGrafikoak);
             this.Controls.Add(this.btnBilatu);
             this.Controls.Add(this.btnIkusi);
             this.Controls.Add(this.btnGorde);
@@ -203,6 +216,7 @@
         private System.Windows.Forms.Button btnGorde;
         private System.Windows.Forms.Button btnIkusi;
         private System.Windows.Forms.Button btnBilatu;
+        private System.Windows.Forms.Button btnGrafikoak;
     }
 }
 
