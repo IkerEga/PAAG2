@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\KaixoMundua\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|c:\\github\\paag2\\2. eba\\interfaze garapena\\kaixomundua\\kaixomundua\\views\\kaixomundua\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|solutionrelative:kaixomundua\\views\\kaixomundua\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|c:\\github\\paag2\\2. eba\\interfaze garapena\\kaixomundua\\kaixomundua\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|solutionrelative:kaixomundua\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|c:\\github\\paag2\\2. eba\\interfaze garapena\\kaixomundua\\kaixomundua\\views\\ongietorri\\ongietorri.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|solutionrelative:kaixomundua\\views\\ongietorri\\ongietorri.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|c:\\github\\paag2\\2. eba\\interfaze garapena\\kaixomundua\\kaixomundua\\controllers\\kaixomunduacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|solutionrelative:kaixomundua\\controllers\\kaixomunduacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|c:\\github\\paag2\\2. eba\\interfaze garapena\\kaixomundua\\kaixomundua\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|solutionrelative:kaixomundua\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|c:\\github\\paag2\\2. eba\\interfaze garapena\\kaixomundua\\kaixomundua\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|solutionrelative:kaixomundua\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|c:\\github\\paag2\\2. eba\\interfaze garapena\\kaixomundua\\kaixomundua\\controllers\\kaixomunduacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|solutionrelative:kaixomundua\\controllers\\kaixomunduacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|c:\\github\\paag2\\2. eba\\interfaze garapena\\kaixomundua\\kaixomundua\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|solutionrelative:kaixomundua\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|c:\\github\\paag2\\2. eba\\interfaze garapena\\kaixomundua\\kaixomundua\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|solutionrelative:kaixomundua\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|c:\\github\\paag2\\2. eba\\interfaze garapena\\kaixomundua\\kaixomundua\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|solutionrelative:kaixomundua\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|c:\\github\\paag2\\2. eba\\interfaze garapena\\kaixomundua\\kaixomundua\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|solutionrelative:kaixomundua\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|c:\\github\\paag2\\2. eba\\interfaze garapena\\kaixomundua\\kaixomundua\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|solutionrelative:kaixomundua\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|c:\\github\\paag2\\2. eba\\interfaze garapena\\kaixomundua\\kaixomundua\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -21,30 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|c:\\github\\paag2\\2. eba\\interfaze garapena\\kaixomundua\\kaixomundua\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|solutionrelative:kaixomundua\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|c:\\github\\paag2\\2. eba\\interfaze garapena\\kaixomundua\\kaixomundua\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|solutionrelative:kaixomundua\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|c:\\github\\paag2\\2. eba\\interfaze garapena\\kaixomundua\\kaixomundua\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|solutionrelative:kaixomundua\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|c:\\github\\paag2\\2. eba\\interfaze garapena\\kaixomundua\\kaixomundua\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|solutionrelative:kaixomundua\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|c:\\github\\paag2\\2. eba\\interfaze garapena\\kaixomundua\\kaixomundua\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|solutionrelative:kaixomundua\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|c:\\github\\paag2\\2. eba\\interfaze garapena\\kaixomundua\\kaixomundua\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|solutionrelative:kaixomundua\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|c:\\github\\paag2\\2. eba\\interfaze garapena\\kaixomundua\\kaixomundua\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4644F1A4-A693-4FD4-80E0-F05AA2989D5D}|KaixoMundua\\KaixoMundua.csproj|solutionrelative:kaixomundua\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,15 +70,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\KaixoMundua\\KaixoMundua\\Views\\KaixoMundua\\Index.cshtml",
-              "RelativeDocumentMoniker": "KaixoMundua\\Views\\KaixoMundua\\Index.cshtml",
-              "ToolTip": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\KaixoMundua\\KaixoMundua\\Views\\KaixoMundua\\Index.cshtml",
-              "RelativeToolTip": "KaixoMundua\\Views\\KaixoMundua\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-26T09:56:56.519Z",
+              "DocumentIndex": 3,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\KaixoMundua\\KaixoMundua\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "KaixoMundua\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\KaixoMundua\\KaixoMundua\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "KaixoMundua\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T09:41:34.722Z",
               "EditorCaption": ""
             },
             {
@@ -85,40 +89,66 @@
               "RelativeDocumentMoniker": "KaixoMundua\\Controllers\\KaixoMunduaController.cs",
               "ToolTip": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\KaixoMundua\\KaixoMundua\\Controllers\\KaixoMunduaController.cs",
               "RelativeToolTip": "KaixoMundua\\Controllers\\KaixoMunduaController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAkAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-26T09:42:24.824Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\KaixoMundua\\KaixoMundua\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "KaixoMundua\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\KaixoMundua\\KaixoMundua\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "KaixoMundua\\Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "OngiEtorri.cshtml",
+              "DocumentMoniker": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\KaixoMundua\\KaixoMundua\\Views\\OngiEtorri\\OngiEtorri.cshtml",
+              "RelativeDocumentMoniker": "KaixoMundua\\Views\\OngiEtorri\\OngiEtorri.cshtml",
+              "ToolTip": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\KaixoMundua\\KaixoMundua\\Views\\OngiEtorri\\OngiEtorri.cshtml",
+              "RelativeToolTip": "KaixoMundua\\Views\\OngiEtorri\\OngiEtorri.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-26T09:35:34.747Z",
+              "WhenOpened": "2025-11-26T09:56:56.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\KaixoMundua\\KaixoMundua\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "KaixoMundua\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\KaixoMundua\\KaixoMundua\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "KaixoMundua\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T09:29:35.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\KaixoMundua\\KaixoMundua\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "KaixoMundua\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\KaixoMundua\\KaixoMundua\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "KaixoMundua\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T09:29:29.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\KaixoMundua\\KaixoMundua\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "KaixoMundua\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\KaixoMundua\\KaixoMundua\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "KaixoMundua\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T09:29:01.671Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\KaixoMundua\\KaixoMundua\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "KaixoMundua\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\KaixoMundua\\KaixoMundua\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "KaixoMundua\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-26T09:35:16.59Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\KaixoMundua\\KaixoMundua\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "KaixoMundua\\Views\\_ViewImports.cshtml",
@@ -127,6 +157,19 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-26T09:35:13.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\KaixoMundua\\KaixoMundua\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "KaixoMundua\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\KaixoMundua\\KaixoMundua\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "KaixoMundua\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T09:35:16.59Z",
               "EditorCaption": ""
             },
             {
@@ -144,20 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\KaixoMundua\\KaixoMundua\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "KaixoMundua\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\KaixoMundua\\KaixoMundua\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "KaixoMundua\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-26T09:29:29.657Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\KaixoMundua\\KaixoMundua\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "KaixoMundua\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -165,12 +195,11 @@
               "RelativeToolTip": "KaixoMundua\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-26T09:35:37.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-26T09:35:37.87Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\KaixoMundua\\KaixoMundua\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "KaixoMundua\\Views\\Shared\\_Layout.cshtml",
@@ -178,33 +207,19 @@
               "RelativeToolTip": "KaixoMundua\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-26T09:34:36.624Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\KaixoMundua\\KaixoMundua\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "KaixoMundua\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\KaixoMundua\\KaixoMundua\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "KaixoMundua\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-26T09:29:35.84Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-26T09:34:36.624Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\KaixoMundua\\KaixoMundua\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "KaixoMundua\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\KaixoMundua\\KaixoMundua\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "KaixoMundua\\Controllers\\HomeController.cs",
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\KaixoMundua\\KaixoMundua\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "KaixoMundua\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\KaixoMundua\\KaixoMundua\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "KaixoMundua\\Views\\Shared\\Error.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T09:29:01.671Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T09:35:34.747Z",
               "EditorCaption": ""
             }
           ]

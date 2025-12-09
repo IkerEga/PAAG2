@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KaixoMundua")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8615f9f74cb214cb533b6c2d52852fb42a7470f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b89f50ddb8718568422ea45704f76808bde7cb5")]
 [assembly: System.Reflection.AssemblyProductAttribute("KaixoMundua")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KaixoMundua")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
