@@ -1,7 +1,17 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\WineShop\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/localhost_SQLEXPRESS/WineShop/True/SqlTable/dbo.Mota.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egana.iker\\AppData\\Local\\Temp\\kl1u5vb5..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egana.iker\\AppData\\Local\\Temp\\kl1u5vb5..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +19,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +28,27 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dbo.Mota [Datos]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/localhost_SQLEXPRESS/WineShop/True/SqlTable/dbo.Mota.sql",
+              "ToolTip": "dbo.Mota [Datos]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-12-09T11:27:11.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SQLQuery1.sql ",
+              "DocumentMoniker": "C:\\Users\\egana.iker\\AppData\\Local\\Temp\\kl1u5vb5..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Users\\egana.iker\\AppData\\Local\\Temp\\kl1u5vb5..sql",
+              "ToolTip": "SQLQuery1.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-12-09T11:27:00.594Z",
+              "EditorCaption": ""
             }
           ]
         }
