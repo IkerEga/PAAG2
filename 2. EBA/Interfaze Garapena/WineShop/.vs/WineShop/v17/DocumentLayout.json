@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\WineShop\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0BDD822A-1769-4A5C-B4CC-2FB03489F7CC}|WineShop\\WineShop.csproj|c:\\github\\paag2\\2. eba\\interfaze garapena\\wineshop\\wineshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0BDD822A-1769-4A5C-B4CC-2FB03489F7CC}|WineShop\\WineShop.csproj|solutionrelative:wineshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BDD822A-1769-4A5C-B4CC-2FB03489F7CC}|WineShop\\WineShop.csproj|c:\\github\\paag2\\2. eba\\interfaze garapena\\wineshop\\wineshop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0BDD822A-1769-4A5C-B4CC-2FB03489F7CC}|WineShop\\WineShop.csproj|solutionrelative:wineshop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BDD822A-1769-4A5C-B4CC-2FB03489F7CC}|WineShop\\WineShop.csproj|c:\\github\\paag2\\2. eba\\interfaze garapena\\wineshop\\wineshop\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0BDD822A-1769-4A5C-B4CC-2FB03489F7CC}|WineShop\\WineShop.csproj|solutionrelative:wineshop\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +31,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\WineShop\\WineShop\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WineShop\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\WineShop\\WineShop\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WineShop\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-10T09:21:05.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\WineShop\\WineShop\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "WineShop\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\WineShop\\WineShop\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "WineShop\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-10T09:19:29.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\WineShop\\WineShop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WineShop\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Github\\PAAG2\\2. EBA\\Interfaze Garapena\\WineShop\\WineShop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WineShop\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACoAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-10T09:17:17.032Z",
+              "EditorCaption": ""
             }
           ]
         }

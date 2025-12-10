@@ -20,3 +20,27 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+#searchForm {
+    padding-top: 10%;
+}
+
+.bg-menua {
+    background-color: #dddada !important;
+}
+
+.erlatiboa {
+    position: relative;
+}
+
+.full-width.dropdown {
+    position: static;
+}
+
+    .full-width.dropdown > .dropdown-menu {
+        left: 0;
+    }
+
+        .full-width.dropdown > .dropdown-menu > li > a {
+            white-space: normal;
+        }
