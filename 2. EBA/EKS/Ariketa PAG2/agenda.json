@@ -1,8 +1,14 @@
 [
     {
-        "izena": "Iker",
-        "abizena": "Ega\u00f1a",
+        "izena": "Ager",
+        "abizena": "Aketxe",
         "telefonoa": "123456789",
-        "email": "iker@iker.com"
+        "email": "ager@aketxe.com"
+    },
+    {
+        "izena": "Iker",
+        "abizena": "Ega",
+        "telefonoa": "147147147",
+        "email": "iker@ega.com"
     }
 ]
