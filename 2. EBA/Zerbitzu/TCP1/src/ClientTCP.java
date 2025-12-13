@@ -10,7 +10,7 @@ public class ClientTCP {
         try {
             // Conectar al servidor
             Socket socket = new Socket(serverAddress, port);
-            System.out.println("✅ Conectado al servidor");
+            System.out.println("Conectado al servidor");
 
             // Streams
             InputStream inputStream = socket.getInputStream();
@@ -23,15 +23,15 @@ public class ClientTCP {
 
             // 🔹 1. El cliente recibe el saludo del servidor
             String saludoServidor = reader.readLine();
-            System.out.println("📩 Servidor dice: " + saludoServidor);
+            System.out.println("Servidor dice: " + saludoServidor);
 
             // 🔹 2. El cliente responde con su nombre
             String nombre = "Alex";  // puedes cambiarlo por el tuyo
-            writer.println("Hola servidor, soy " + nombre + " 👋");
+            writer.println("Hola servidor, soy " + nombre);
 
             // Cerrar conexión
             socket.close();
-            System.out.println("🔒 Conexión cerrada");
+            System.out.println("Conexión cerrada");
 
         } catch (IOException e) {
             e.printStackTrace();

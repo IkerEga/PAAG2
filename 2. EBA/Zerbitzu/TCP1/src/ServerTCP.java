@@ -8,12 +8,12 @@ public class ServerTCP {
 
         try {
             ServerSocket serverSocket = new ServerSocket(port);
-            System.out.println("✅ Servidor iniciado en el puerto " + port);
-            System.out.println("⏳ Esperando a un cliente...");
+            System.out.println("Servidor iniciado en el puerto " + port);
+            System.out.println("Esperando a un cliente...");
 
             // Espera a que un cliente se conecte
             Socket clientSocket = serverSocket.accept();
-            System.out.println("✅ Cliente conectado desde: " 
+            System.out.println("Cliente conectado desde: " 
                     + clientSocket.getInetAddress());
 
             // Streams
@@ -26,16 +26,16 @@ public class ServerTCP {
             PrintWriter writer = new PrintWriter(outputStream, true);
 
             // 🔹 1. El servidor envía un saludo al cliente
-            writer.println("Hola cliente, bienvenido al servidor 👋");
+            writer.println("Hola cliente, bienvenido al servidor");
 
             // 🔹 2. El servidor recibe la respuesta del cliente
             String respuestaCliente = reader.readLine();
-            System.out.println("📩 Respuesta del cliente: " + respuestaCliente);
+            System.out.println("Respuesta del cliente: " + respuestaCliente);
 
             // Cerrar todo
             clientSocket.close();
             serverSocket.close();
-            System.out.println("🔒 Conexión cerrada");
+            System.out.println("Conexión cerrada");
 
         } catch (IOException e) {
             e.printStackTrace();
