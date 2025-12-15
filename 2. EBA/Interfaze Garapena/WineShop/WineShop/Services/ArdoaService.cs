@@ -23,7 +23,8 @@ namespace WineShop.Services
             }
             return ardoaUpeltegiList;
         }
-    }
+    
+
 
     public async Task<List<Ardoa>> GetArdoak()
         {

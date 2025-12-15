@@ -73,3 +73,17 @@ body {
     .nireMenua > a:hover {
         color: #981212;
     }
+
+.tachado {
+    text-decoration: line-through;
+}
+
+.col-item .photo img {
+    margin: 0 auto;
+    /*width: 100%;*/
+}
+
+.col-item .irudia {
+    height: 150px;
+    width: auto;
+}
