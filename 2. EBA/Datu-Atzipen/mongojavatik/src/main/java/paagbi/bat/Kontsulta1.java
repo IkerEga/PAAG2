@@ -1,8 +1,10 @@
 package paagbi.bat;
 
-import static com.mongodb.client.model.Filters.eq;
-import org.bson.Document;
+import static com.mongodb.client.model.Filters.*;
+import static com.mongodb.client.model.Projections.*;
 
+import org.bson.Document;
+import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoCollection;
@@ -14,12 +16,16 @@ public class Kontsulta1 {
 
         try (MongoClient mongoClient = MongoClients.create(uri)) {
             MongoDatabase database = mongoClient.getDatabase("sample_mflix");
-            MongoCollection<Document> collection = database.getCollection("movies");
+            MongoCollection<Document> movies = database.getCollection("movies");
 
-            for (Document d : collection.find(eq("year", 1920))) {
-                System.out.println("Izenburua: " + d.getString("title"));
-                System.out.println("Urtea: " + d.getInteger("year"));
-                System.out.println("---------------------------");
+            System.out.println("Movies released in 1920:");
+
+            FindIterable<Document> res = movies.find(eq("year", 1920))  //Filtro por año
+                    .projection(fields(include("title", "year"), excludeId()))  //Agregar los campos que queremos mostrar
+                    .limit(5);  //Para no imprimir demasiados resultados
+
+            for (Document d : res) {
+                System.out.println(d.toJson());
             }
         }
     }

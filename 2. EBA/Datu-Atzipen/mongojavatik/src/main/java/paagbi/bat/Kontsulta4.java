@@ -2,10 +2,12 @@ package paagbi.bat;
 
 import static com.mongodb.client.model.Filters.eq;
 import static com.mongodb.client.model.Filters.gt;
+import static com.mongodb.client.model.Projections.*;
 import static com.mongodb.client.model.Filters.and;
 
 import org.bson.Document;
 
+import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoCollection;
@@ -18,15 +20,19 @@ public class Kontsulta4 {
 
         try (MongoClient mongoClient = MongoClients.create(uri)) {
             MongoDatabase database = mongoClient.getDatabase("sample_mflix");
-            MongoCollection<Document> collection = database.getCollection("movies");
+            MongoCollection<Document> movies = database.getCollection("movies");
 
-            for (Document d : collection.find(
-                    and(eq("countries", "Spain"), gt("year", 2014))
-            )) {
-                System.out.println("Izenburua: " + d.getString("title"));
-                System.out.println("Herrialdea: " + d.get("countries"));
-                System.out.println("Año: " + d.get("year"));
-                System.out.println("---------------------------");
+            System.out.println("\nMovies from Spain released after 2014");
+
+            FindIterable<Document> res = movies.find(
+                    and(
+                            eq("countries", "Spain"),
+                            gt("year", 2014)))
+                    .projection(fields(include("title", "year", "countries"), exclude("_id")))
+                    .limit(5);
+
+            for (Document d : res) {
+                System.out.println(d.toJson());
             }
         }
     }

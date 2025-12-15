@@ -1,11 +1,12 @@
 package paagbi.bat;
 
-import static com.mongodb.client.model.Filters.eq;
-import static com.mongodb.client.model.Filters.gt;
-import static com.mongodb.client.model.Filters.and;
+
+import static com.mongodb.client.model.Projections.*;
+import static com.mongodb.client.model.Sorts.ascending;
 
 import org.bson.Document;
 
+import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoCollection;
@@ -18,14 +19,17 @@ public class Kontsulta5 {
 
         try (MongoClient mongoClient = MongoClients.create(uri)) {
             MongoDatabase database = mongoClient.getDatabase("sample_mflix");
-            MongoCollection<Document> collection = database.getCollection("movies");
+            MongoCollection<Document> movies = database.getCollection("movies");
 
-            for (Document d : collection.find()
-                    .sort(new Document("year", 1))) {
-                System.out.println("Izenburua: " + d.getString("title"));
-                System.out.println("Urtea: " + (d.getInteger("year") != null ? d.getInteger("year") : "N/A"));
-                System.out.println("Herrialdea: " + d.get("countries"));
-                System.out.println("---------------------------");
+            System.out.println("\nList of all movies sorted by year:");
+
+            FindIterable<Document> res = movies.find()
+                    .projection(fields(include("title", "year"), exclude("_id")))
+                    .sort(ascending("year"))
+                    .limit(5);
+
+            for (Document d : res) {
+                System.out.println(d.toJson());
             }
         }
     }

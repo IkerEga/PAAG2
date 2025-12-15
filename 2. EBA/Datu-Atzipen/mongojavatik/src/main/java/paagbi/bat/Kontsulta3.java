@@ -1,8 +1,12 @@
 package paagbi.bat;
 
 import static com.mongodb.client.model.Filters.eq;
+import static com.mongodb.client.model.Filters.ne;
+import static com.mongodb.client.model.Projections.*;
+
 import org.bson.Document;
 
+import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoCollection;
@@ -14,12 +18,16 @@ public class Kontsulta3 {
 
         try (MongoClient mongoClient = MongoClients.create(uri)) {
             MongoDatabase database = mongoClient.getDatabase("sample_mflix");
-            MongoCollection<Document> collection = database.getCollection("movies");
+            MongoCollection<Document> movies = database.getCollection("movies");
 
-            for (Document d : collection.find(eq("countries", "USA"))) {
-                System.out.println("Izenburua: " + d.getString("title"));
-                System.out.println("Herrialdea: " + d.get("countries"));
-                System.out.println("---------------------------");
+            System.out.println("\nMovies form outside the USA:");
+
+            FindIterable<Document> res = movies.find(ne("countries", "USA"))
+                    .projection(fields(include("title", "year", "countries"),excludeId()))
+                    .limit(5);
+            
+            for (Document d : res) {
+                System.out.println(d.toJson());
             }
         }
     }

@@ -1,8 +1,11 @@
 package paagbi.bat;
 
 import static com.mongodb.client.model.Filters.eq;
+import static com.mongodb.client.model.Projections.*;
+
 import org.bson.Document;
 
+import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoCollection;
@@ -14,12 +17,16 @@ public class Kontsulta2 {
 
         try (MongoClient mongoClient = MongoClients.create(uri)) {
             MongoDatabase database = mongoClient.getDatabase("sample_mflix");
-            MongoCollection<Document> collection = database.getCollection("movies");
+            MongoCollection<Document> movies = database.getCollection("movies");
 
-            for (Document d : collection.find(eq("directors", "Quentin Tarantino"))) {
-                System.out.println("Izenburua: " + d.getString("title"));
-                System.out.println("Zuzendaria: " + d.get("directors"));
-                System.out.println("---------------------------");
+            System.out.println("\nMovies directed by Quentin Tarantino:");
+
+            FindIterable<Document> res = movies.find(eq("directors", "Quentin Tarantino"))
+                    .projection(fields(include("title", "year"), excludeId()))
+                    .limit(5);
+
+            for (Document d : res) {
+                System.out.println(d.toJson());
             }
         }
     }
