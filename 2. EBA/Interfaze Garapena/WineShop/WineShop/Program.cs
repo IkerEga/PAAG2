@@ -6,9 +6,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDistributedMemoryCache();
+
 builder.Services.AddSession(options =>
 {
-    options.IdleTimeout = TimeSpan.FromSeconds(900);
+    options.IdleTimeout = TimeSpan.FromSeconds(900);    //Hasi saioa eta zenbat segundo egondo da sesiua aktibatuta
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
 });
@@ -16,6 +17,7 @@ builder.Services.AddSession(options =>
 
 //Gure zerbitzuak
 builder.Services.AddScoped<IArdoaService, ArdoaService>();
+builder.Services.AddScoped<ISaskiaService, SaskiaService>();
 
 var app = builder.Build();
 
@@ -35,7 +37,7 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.UseSession();
+app.UseSession();   //Sesioa aktibatzeko (denbora)
 
 app.MapControllerRoute(
     name: "default",
