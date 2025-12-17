@@ -1,0 +1,62 @@
+﻿@using System.Globalization;
+@model WineShop.ViewModels.SaskiaViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="container">
+    <div id="update-message"></div>
+    <table class="table table-striped">
+        <thead>
+            <tr class="borgona">
+                <th>Izena</th>
+                <th>Irudia</th>
+                <th>Kantitatea</th>
+                <th>Salneurria</th>
+                <th>Guztira</th>
+            </tr>
+        </thead>
+        @{
+            decimal saskiaguztira = 0;
+        }
+
+        @foreach (var item in Model.SaskiaAleaVMList)
+        {
+            <tr id="row-@item.ArdoaId">
+                <td>
+                    @item.Izena
+                </td>
+                <td>
+                    <img class="img-thumbnail altuera" id="thumbnail" src="~/images/ardoak/@item.Irudia" />
+                </td>
+                <td>
+                    <div>
+                        <a href="" class="RemoveLink" data-id="@item.ArdoaId">
+                            <i class="fas fa-cart-arrow-down"></i>
+                        </a>
+                        <span id="item-count-@item.ArdoaId">@item.Kantitatea</span>
+                        <a href="" class="AddLink" data-id="@item.ArdoaId" data-kantitatea="@item.Kantitatea" data-salneurria="@item.Salneurria">
+                            <i class="fas fa-cart-plus"></i>
+                        </a>
+                    </div>
+                </td>
+                <td>
+                    @item.Salneurria
+                </td>
+                <td>
+                    @{
+                        decimal guztiraLinea = item.Salneurria * item.Kantitatea;
+                    }
+                    <span id="item-subtotal-@item.ArdoaId">@guztiraLinea.ToString("C2", CultureInfo.CurrentCulture)</span>
+                </td>
+            </tr>
+        }
+        <tr>
+            <td>
+                <a class="btn btn-borgona text-light" asp-controller="Home" asp-action="Index">Bueltatu</a>
+                <a class="btn btn-borgona text-light" asp-controller="Ordaindu" asp-action="Index">Ordaindu</a>
+            </td>
+            <td colspan="4" class="text-end"><strong>Azken prezioa:</strong></td>
+            <td id="cart-total">@Model.Guztira.ToString("C2", CultureInfo.CurrentCulture)</td>
+        </tr>
+    </table>
+</div>
