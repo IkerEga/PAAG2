@@ -55,7 +55,7 @@ public class InflazioZerbitzua {
                 .filter(i -> i.getUrtea() == urtea)
                 .map(InflazioUrtea::getIndizea)
                 .findFirst()
-                .orElse(100.0); // fallback
+                .orElse(100.0); 
     }
 
     private double lortuAzkenIndizea() {
