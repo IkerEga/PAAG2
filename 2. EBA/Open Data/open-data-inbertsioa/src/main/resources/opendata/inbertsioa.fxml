@@ -1,45 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.collections.FXCollections?>
-<?import javafx.scene.control.ComboBox?>
-<?import javafx.scene.control.TextField?>
-<?import javafx.scene.control.Label?>
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.chart.LineChart?>
 <?import javafx.scene.chart.NumberAxis?>
-<?import javafx.scene.chart.XYChart?>
-<?import javafx.scene.layout.*?>
-
+<?import javafx.scene.control.Button?>
+<?import java.lang.String?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
 
 <BorderPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="opendata.controller.InbertsioaController">
 
-    <!-- Goiburua -->
     <top>
         <HBox alignment="CENTER_LEFT" spacing="20">
-            <padding><Insets top="10" right="10" bottom="10" left="10"/></padding>
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+
             <Button text="⬅ Menu nagusira" onAction="#joanMenura"/>
             <Label text="Inbertsioaren simulazioa (DCA)"
                    style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
         </HBox>
     </top>
 
-    <!-- Ezkerrean formularioa -->
     <left>
         <VBox spacing="10">
-            <padding><Insets top="20" right="20" bottom="20" left="20"/></padding>
+            <padding>
+                <Insets top="20" right="20" bottom="20" left="20"/>
+            </padding>
 
             <Label text="Indizea:"/>
             <ComboBox fx:id="cmbIndizea">
                 <items>
                     <FXCollections fx:factory="observableArrayList">
-                        <String fx:value="S&P 500" />
-                        <String fx:value="Nasdaq 100" />
-                        <String fx:value="Ibex 35" />
+                        <String fx:value="S&amp;P 500"/>
+                        <String fx:value="Nasdaq 100"/>
+                        <String fx:value="Ibex 35"/>
                     </FXCollections>
                 </items>
             </ComboBox>
-
 
             <Label text="Hilabeteko ekarpena (€):"/>
             <TextField fx:id="txtEkarpena" promptText="Adib.: 100"/>
@@ -55,7 +60,6 @@
         </VBox>
     </left>
 
-    <!-- Erdian grafikoa -->
     <center>
         <LineChart fx:id="grafikoa"
                    title="Inbertsioaren bilakaera"
