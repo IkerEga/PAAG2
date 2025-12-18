@@ -8,21 +8,12 @@
 <VBox xmlns="http://javafx.com/javafx"
       xmlns:fx="http://javafx.com/fxml"
       fx:controller="opendata.controller.MenuNagusiaController"
-      alignment="CENTER"
-      spacing="20">
+      spacing="12" alignment="CENTER">
     <padding>
-        <Insets top="40" right="40" bottom="40" left="40"/>
+        <Insets top="20" right="20" bottom="20" left="20"/>
     </padding>
 
-    <Label text="Open Data – Inflazioa eta Inbertsioa"
-           style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
-
-    <Button text="Inflazioaren eragina"
-            prefWidth="250"
-            onAction="#joanInflaziora"/>
-
-    <Button text="Indizeetan inbertitzea"
-            prefWidth="250"
-            onAction="#joanInbertsiora"/>
-
+    <Label text="Menu Nagusia" style="-fx-font-size: 22px; -fx-font-weight: bold;"/>
+    <Button text="Inflazioa" onAction="#joanInflaziora" maxWidth="200"/>
+    <Button text="Inbertsioa (DCA)" onAction="#joanInbertsiora" maxWidth="200"/>
 </VBox>

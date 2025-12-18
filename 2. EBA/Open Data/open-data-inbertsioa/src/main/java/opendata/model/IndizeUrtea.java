@@ -11,5 +11,4 @@ public class IndizeUrtea {
 
     public int getUrtea() { return urtea; }
     public double getBalioa() { return balioa; }
-    
 }

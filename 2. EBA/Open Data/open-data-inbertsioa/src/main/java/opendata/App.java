@@ -1,11 +1,12 @@
 package opendata;
 
-import java.io.IOException;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Scene;
 import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.stage.Stage;
+
+import java.io.IOException;
 
 public class App extends Application {
 
@@ -13,9 +14,9 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        scene = new Scene(kargatuFXML("menu_nagusia"), 640, 480);
+        scene = new Scene(kargatuFXML("menu_nagusia"), 900, 600);
+        stage.setTitle("Open Data - Inbertsioa");
         stage.setScene(scene);
-        stage.setTitle("Open Data – Inflazioa eta Inbertsioa");
         stage.show();
     }
 

@@ -27,7 +27,6 @@ public class InbertsioaController {
 
     @FXML
     public void initialize() {
-        // FXML-ean items badituzu ere, ez du minik egiten
         if (cmbIndizea.getItems().isEmpty()) {
             cmbIndizea.getItems().addAll("S&P 500", "Nasdaq 100", "Ibex 35");
         }
@@ -49,10 +48,10 @@ public class InbertsioaController {
             double ekarpena = Double.parseDouble(txtEkarpena.getText().trim().replace(",", "."));
             int hasieraUrtea = Integer.parseInt(txtUrtea.getText().trim());
 
-            String csvPath = aukeratuIndizearenCsv(indizea);
+            String csv = aukeratuIndizearenCsv(indizea);
 
             InflazioZerbitzua inflazioZerbitzua = new InflazioZerbitzua();
-            IndizeZerbitzua indizeZerbitzua = new IndizeZerbitzua(csvPath);
+            IndizeZerbitzua indizeZerbitzua = new IndizeZerbitzua(csv);
             InbertsioZerbitzua inbertsioZerbitzua = new InbertsioZerbitzua(inflazioZerbitzua, indizeZerbitzua);
 
             if (hasieraUrtea < indizeZerbitzua.lortuHasierakoUrtea()) {
@@ -62,30 +61,35 @@ public class InbertsioaController {
 
             grafikoa.getData().clear();
 
-            XYChart.Series<Number, Number> nominala =
-                    inbertsioZerbitzua.sortuSerieNominala(hasieraUrtea, ekarpena);
-
-            XYChart.Series<Number, Number> egokitua =
-                    inbertsioZerbitzua.sortuSerieInflazioEgokituaGaur(hasieraUrtea, ekarpena);
-
+            XYChart.Series<Number, Number> nominala = inbertsioZerbitzua.sortuSerieNominala(hasieraUrtea, ekarpena);
             nominala.setName(indizea + " (Nominala)");
-            egokitua.setName(indizea + " (Gaurko €)");
 
-            grafikoa.getData().addAll(nominala, egokitua);
+            XYChart.Series<Number, Number> gaurkoa = inbertsioZerbitzua.sortuSerieGaurkoEurotan(hasieraUrtea, ekarpena);
+            gaurkoa.setName(indizea + " (Gaurko €)");
 
-            lblEmaitza.setText("Kalkulua eginda: " + indizea);
+            grafikoa.getData().addAll(nominala, gaurkoa);
+
+            // azken puntua erakutsi
+            if (!nominala.getData().isEmpty()) {
+                double azkenNominala = nominala.getData().get(nominala.getData().size() - 1).getYValue().doubleValue();
+                double azkenGaurkoa = gaurkoa.getData().get(gaurkoa.getData().size() - 1).getYValue().doubleValue();
+                lblEmaitza.setText("Azken balioa -> Nominala: " + String.format(java.util.Locale.US, "%.2f", azkenNominala)
+                        + " € | Gaurko €: " + String.format(java.util.Locale.US, "%.2f", azkenGaurkoa) + " €");
+            } else {
+                lblEmaitza.setText("Ez dago daturik marrazteko.");
+            }
 
         } catch (Exception e) {
-            lblEmaitza.setText("Errorea: datuak ondo sartu. (" + e.getMessage() + ")");
+            lblEmaitza.setText("Errorea: Ziurtatu datuak ondo sartu dituzula. (" + e.getMessage() + ")");
         }
     }
 
     private String aukeratuIndizearenCsv(String indizea) {
         return switch (indizea) {
-            case "S&P 500" -> "/opendata/datuak/sp500.csv";
+            case "S&P 500" -> "/opendata/datuak/s&p500.csv";
             case "Nasdaq 100" -> "/opendata/datuak/nasdaq100.csv";
             case "Ibex 35" -> "/opendata/datuak/ibex35.csv";
-            default -> "/opendata/datuak/sp500.csv";
+            default -> "/opendata/datuak/s&p500.csv";
         };
     }
 }
