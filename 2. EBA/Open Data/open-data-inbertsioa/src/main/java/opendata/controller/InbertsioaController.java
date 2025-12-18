@@ -16,14 +16,21 @@ import java.io.IOException;
 
 public class InbertsioaController {
 
-    @FXML private ComboBox<String> cmbIndizea;
-    @FXML private TextField txtEkarpena;
-    @FXML private TextField txtUrtea;
-    @FXML private Label lblEmaitza;
+    @FXML
+    private ComboBox<String> cmbIndizea;
+    @FXML
+    private TextField txtEkarpena;
+    @FXML
+    private TextField txtUrtea;
+    @FXML
+    private Label lblEmaitza;
 
-    @FXML private LineChart<Number, Number> grafikoa;
-    @FXML private NumberAxis xAldea;
-    @FXML private NumberAxis yAldea;
+    @FXML
+    private LineChart<Number, Number> grafikoa;
+    @FXML
+    private NumberAxis xAldea;
+    @FXML
+    private NumberAxis yAldea;
 
     @FXML
     public void initialize() {
@@ -55,7 +62,8 @@ public class InbertsioaController {
             InbertsioZerbitzua inbertsioZerbitzua = new InbertsioZerbitzua(inflazioZerbitzua, indizeZerbitzua);
 
             if (hasieraUrtea < indizeZerbitzua.lortuHasierakoUrtea()) {
-                lblEmaitza.setText("Errorea: indizearen datuak " + indizeZerbitzua.lortuHasierakoUrtea() + " urtetik hasten dira.");
+                lblEmaitza.setText("Errorea: indizearen datuak " + indizeZerbitzua.lortuHasierakoUrtea()
+                        + " urtetik hasten dira.");
                 return;
             }
 
@@ -73,8 +81,9 @@ public class InbertsioaController {
             if (!nominala.getData().isEmpty()) {
                 double azkenNominala = nominala.getData().get(nominala.getData().size() - 1).getYValue().doubleValue();
                 double azkenGaurkoa = gaurkoa.getData().get(gaurkoa.getData().size() - 1).getYValue().doubleValue();
-                lblEmaitza.setText("Azken balioa -> Nominala: " + String.format(java.util.Locale.US, "%.2f", azkenNominala)
-                        + " € | Gaurko €: " + String.format(java.util.Locale.US, "%.2f", azkenGaurkoa) + " €");
+                lblEmaitza.setText(
+                        "Azken balioa -> Nominala: " + String.format(java.util.Locale.US, "%.2f", azkenNominala)
+                                + " € | Gaurko €: " + String.format(java.util.Locale.US, "%.2f", azkenGaurkoa) + " €");
             } else {
                 lblEmaitza.setText("Ez dago daturik marrazteko.");
             }
@@ -85,11 +94,19 @@ public class InbertsioaController {
     }
 
     private String aukeratuIndizearenCsv(String indizea) {
-        return switch (indizea) {
-            case "S&P 500" -> "/opendata/datuak/s&p500.csv";
-            case "Nasdaq 100" -> "/opendata/datuak/nasdaq100.csv";
-            case "Ibex 35" -> "/opendata/datuak/ibex35.csv";
-            default -> "/opendata/datuak/s&p500.csv";
-        };
+        if (indizea == null)
+            return "/opendata/datuak/sp500.csv";
+
+        switch (indizea) {
+            case "S&P 500":
+                return "/opendata/datuak/sp500.csv";
+            case "Nasdaq 100":
+                return "/opendata/datuak/nasdaq100.csv";
+            case "Ibex 35":
+                return "/opendata/datuak/ibex35.csv";
+            default:
+                return "/opendata/datuak/sp500.csv";
+        }
     }
+
 }
