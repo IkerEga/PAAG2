@@ -11,6 +11,8 @@ import eus.ikeregana.invesnews_multimedia.data.repository.NewsRepository;
 public class NewsViewModel extends ViewModel {
 
     private final NewsRepository repository;
+    private boolean alreadyLoaded = false;
+
 
     public NewsViewModel() {
         repository = new NewsRepository();
@@ -31,4 +33,12 @@ public class NewsViewModel extends ViewModel {
     public void fetchNews(String apiToken, String symbols, String search, String language, Integer page) {
         repository.fetchNews(apiToken, symbols, search, language, page);
     }
+
+    public void loadNewsIfNeeded(String apiToken, String symbols, String search, String language, Integer page) {
+        if (!alreadyLoaded) {
+            alreadyLoaded = true;
+            fetchNews(apiToken, symbols, search, language, page);
+        }
+    }
+
 }

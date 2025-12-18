@@ -16,6 +16,11 @@ import eus.ikeregana.invesnews_multimedia.data.model.ArticleDto;
 
 public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewHolder> {
 
+    public interface OnItemClickListener {
+        void onItemClick(ArticleDto article);
+    }
+    private OnItemClickListener listener;
+
     private List<ArticleDto> articles = new ArrayList<>();
 
     @NonNull
@@ -33,6 +38,13 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewHolder
         holder.tvTitle.setText(article.getTitle());
         holder.tvDescription.setText(article.getDescription());
         holder.tvSourceDate.setText(article.getSource());
+
+        holder.itemView.setOnClickListener(v -> {
+            if (listener != null) {
+                listener.onItemClick(article);
+            }
+        });
+
     }
 
     @Override
@@ -47,6 +59,9 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewHolder
     }
 
 
+    public void setOnItemClickListener(OnItemClickListener listener) {
+        this.listener = listener;
+    }
 
 
     static class NewsViewHolder extends RecyclerView.ViewHolder {
