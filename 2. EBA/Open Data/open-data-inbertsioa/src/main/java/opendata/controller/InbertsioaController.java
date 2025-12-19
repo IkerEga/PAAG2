@@ -39,8 +39,16 @@ public class InbertsioaController {
         }
         cmbIndizea.getSelectionModel().selectFirst();
 
-        grafikoa.setAnimated(false);
-        xAldea.setForceZeroInRange(false);
+        if (grafikoa != null) {
+            grafikoa.setAnimated(false);
+        }
+        if (xAldea != null) {
+            xAldea.setForceZeroInRange(false);
+            xAldea.setLabel("Urtea");
+        }
+        if (yAldea != null) {
+            yAldea.setLabel("€ (gaurko balioan)");
+        }
     }
 
     @FXML
@@ -55,53 +63,72 @@ public class InbertsioaController {
             double ekarpena = Double.parseDouble(txtEkarpena.getText().trim().replace(",", "."));
             int hasieraUrtea = Integer.parseInt(txtUrtea.getText().trim());
 
+            if (indizea == null) {
+                lblEmaitza.setText("Aukeratu indize bat.");
+                return;
+            }
+            if (ekarpena <= 0) {
+                lblEmaitza.setText("Ekarpena 0 baino handiagoa izan behar da.");
+                return;
+            }
+
             String csv = aukeratuIndizearenCsv(indizea);
 
             InflazioZerbitzua inflazioZerbitzua = new InflazioZerbitzua();
             IndizeZerbitzua indizeZerbitzua = new IndizeZerbitzua(csv);
             InbertsioZerbitzua inbertsioZerbitzua = new InbertsioZerbitzua(inflazioZerbitzua, indizeZerbitzua);
 
+            // Hasierako urtea balidatu indizearen datuekin
             if (hasieraUrtea < indizeZerbitzua.lortuHasierakoUrtea()) {
                 lblEmaitza.setText("Errorea: indizearen datuak " + indizeZerbitzua.lortuHasierakoUrtea()
                         + " urtetik hasten dira.");
                 return;
             }
 
-            grafikoa.getData().clear();
+            // Azken urtea: indize + inflazioa -> minimoa, serieek denak berdin amaitzeko
+            int azkenUrtea = Math.min(indizeZerbitzua.lortuAzkenUrtea(), inflazioZerbitzua.lortuAzkenUrtea());
+            if (hasieraUrtea >= azkenUrtea) {
+                lblEmaitza.setText("Errorea: hasierako urtea handiegia da (ez dago tarterik marrazteko).");
+                return;
+            }
 
-            XYChart.Series<Number, Number> nominala = inbertsioZerbitzua.sortuSerieNominala(hasieraUrtea, ekarpena);
-            nominala.setName(indizea + " (Nominala)");
+            // 1) Inbertituta (gaurko €) -> zure zerbitzuak kalkulatzen du
+            XYChart.Series<Number, Number> inbertitutaGaur = inbertsioZerbitzua.sortuSerieGaurkoEurotan(hasieraUrtea,
+                    ekarpena);
+            inbertitutaGaur.setName(indizea + " (Inbertituta - Gaurko €)");
 
-            XYChart.Series<Number, Number> gaurkoa = inbertsioZerbitzua.sortuSerieGaurkoEurotan(hasieraUrtea, ekarpena);
-            gaurkoa.setName(indizea + " (Gaurko €)");
+            // 2) Aurrezten bakarrik (gaurko €) -> linea “zuzen” konparazioa
+            XYChart.Series<Number, Number> aurrezkiGaur = new XYChart.Series<>();
+            aurrezkiGaur.setName("Aurrezten (Gaurko €)");
 
-            
-            XYChart.Series<Number, Number> aurrezkiSerie = new XYChart.Series<>();
-            aurrezkiSerie.setName("Aurrezten bakarrik (nominala)");
-
-            int azkenUrtea = Integer.parseInt(txtUrtea.getText().trim());
-            /* el mismo endYear que uses en la simulación */;
-            double metatua = 0.0;
+            double metatuaNominal = 0.0;
+            double indizeGaur = inflazioZerbitzua.lortuIndizea(azkenUrtea);
 
             for (int y = hasieraUrtea; y <= azkenUrtea; y++) {
-                metatua += ekarpena * 12.0;
-                aurrezkiSerie.getData().add(new XYChart.Data<>(y, metatua));
+                metatuaNominal += ekarpena * 12.0;
+
+                double indizeY = inflazioZerbitzua.lortuIndizea(y);
+                double metatuaGaur = (indizeY == 0) ? metatuaNominal : metatuaNominal * (indizeGaur / indizeY);
+
+                aurrezkiGaur.getData().add(new XYChart.Data<>(y, metatuaGaur));
             }
 
-            grafikoa.getData().add(aurrezkiSerie);
+            // Pintar
+            grafikoa.getData().clear();
+            grafikoa.getData().addAll(aurrezkiGaur, inbertitutaGaur);
 
-            grafikoa.getData().addAll(nominala, gaurkoa);
+            // Texto final (comparación)
+            double azkenAurrezki = aurrezkiGaur.getData().get(aurrezkiGaur.getData().size() - 1).getYValue()
+                    .doubleValue();
+            double azkenInbertituta = inbertitutaGaur.getData().get(inbertitutaGaur.getData().size() - 1).getYValue()
+                    .doubleValue();
+            double aldea = azkenInbertituta - azkenAurrezki;
 
-            // azken puntua erakutsi
-            if (!nominala.getData().isEmpty()) {
-                double azkenNominala = nominala.getData().get(nominala.getData().size() - 1).getYValue().doubleValue();
-                double azkenGaurkoa = gaurkoa.getData().get(gaurkoa.getData().size() - 1).getYValue().doubleValue();
-                lblEmaitza.setText(
-                        "Azken balioa -> Nominala: " + String.format(java.util.Locale.US, "%.2f", azkenNominala)
-                                + " € | Gaurko €: " + String.format(java.util.Locale.US, "%.2f", azkenGaurkoa) + " €");
-            } else {
-                lblEmaitza.setText("Ez dago daturik marrazteko.");
-            }
+            lblEmaitza.setText(
+                    "Azken urtea: " + azkenUrtea +
+                            " \n| Aurrezten: " + fmt(azkenAurrezki) + " € (gaurko)" +
+                            " \n| Inbertituta: " + fmt(azkenInbertituta) + " € (gaurko)" +
+                            " \n| Aldea: " + fmt(aldea) + " €");
 
         } catch (Exception e) {
             lblEmaitza.setText("Errorea: Ziurtatu datuak ondo sartu dituzula. (" + e.getMessage() + ")");
@@ -124,4 +151,7 @@ public class InbertsioaController {
         }
     }
 
+    private String fmt(double v) {
+        return String.format(java.util.Locale.US, "%.2f", v);
+    }
 }
