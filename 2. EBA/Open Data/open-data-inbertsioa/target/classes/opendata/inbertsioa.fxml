@@ -138,11 +138,6 @@
                     <yAxis><NumberAxis fx:id="yAldea" label="Balioa (€)"/></yAxis>
                 </LineChart>
 
-                <VBox>
-                    <Label text="Tip: probatu hasierako urte zaharrago bat (adib. 1990) eta ikusi aldea nola handitzen den."
-                           style="-fx-text-fill: #6b7280;"/>
-                </VBox>
-
             </VBox>
         </VBox>
     </center>
