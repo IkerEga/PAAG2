@@ -100,7 +100,6 @@ public class InflazioaController {
                 }
 
                 grafikoa.getData().addAll(serieGaurko, serieErosahalmena);
-
                 // (Aukeran) Y ardatzaren label-a argitu
                 yAldea.setLabel("€ (balio erlatiboa)");
             }

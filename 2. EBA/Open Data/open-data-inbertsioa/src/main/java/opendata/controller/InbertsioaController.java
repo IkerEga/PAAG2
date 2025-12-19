@@ -75,6 +75,21 @@ public class InbertsioaController {
             XYChart.Series<Number, Number> gaurkoa = inbertsioZerbitzua.sortuSerieGaurkoEurotan(hasieraUrtea, ekarpena);
             gaurkoa.setName(indizea + " (Gaurko €)");
 
+            
+            XYChart.Series<Number, Number> aurrezkiSerie = new XYChart.Series<>();
+            aurrezkiSerie.setName("Aurrezten bakarrik (nominala)");
+
+            int azkenUrtea = Integer.parseInt(txtUrtea.getText().trim());
+            /* el mismo endYear que uses en la simulación */;
+            double metatua = 0.0;
+
+            for (int y = hasieraUrtea; y <= azkenUrtea; y++) {
+                metatua += ekarpena * 12.0;
+                aurrezkiSerie.getData().add(new XYChart.Data<>(y, metatua));
+            }
+
+            grafikoa.getData().add(aurrezkiSerie);
+
             grafikoa.getData().addAll(nominala, gaurkoa);
 
             // azken puntua erakutsi
