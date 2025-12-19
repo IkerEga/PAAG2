@@ -8,55 +8,143 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
 <?import javafx.scene.layout.VBox?>
 
 <BorderPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
-            fx:controller="opendata.controller.InbertsioaController">
+            fx:controller="opendata.controller.InbertsioaController"
+            style="-fx-background-color: #f6f7fb;">
 
+    <!-- TOP BAR -->
     <top>
-        <HBox alignment="CENTER_LEFT" spacing="20">
-            <padding><Insets top="10" right="10" bottom="10" left="10"/></padding>
-            <Button text="⬅ Menu nagusira" onAction="#joanMenura"/>
-            <Label text="Inbertsioaren simulazioa (DCA)"
-                   style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
+        <HBox alignment="CENTER_LEFT" spacing="12"
+              style="-fx-background-color: white; -fx-border-color: #e6e8ef; -fx-border-width: 0 0 1 0;">
+            <padding><Insets top="12" right="16" bottom="12" left="16"/></padding>
+
+            <Button text="⬅ Menu" onAction="#joanMenura"
+                    style="-fx-background-color: #eef1ff; -fx-background-radius: 10; -fx-font-weight: bold;"/>
+
+            <VBox spacing="2">
+                <Label text="Inbertsioa (DCA)"
+                       style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
+                <Label text="Konparatu: aurrezten bakarrik vs inbertituta (gaurko €tan)"
+                       style="-fx-text-fill: #6b7280;"/>
+            </VBox>
+
+            <Region HBox.hgrow="ALWAYS"/>
         </HBox>
     </top>
 
+    <!-- LEFT: CONTROL CARD -->
     <left>
-        <VBox spacing="10">
-            <padding><Insets top="20" right="20" bottom="20" left="20"/></padding>
+        <VBox spacing="12" prefWidth="520" maxWidth="520">
+            <padding><Insets top="16" right="16" bottom="16" left="10"/></padding>
 
-            <Label text="Indizea:"/>
-            <ComboBox fx:id="cmbIndizea">
-                <items>
-                    <FXCollections fx:factory="observableArrayList">
-                        <String fx:value="S&amp;P 500"/>
-                        <String fx:value="Nasdaq 100"/>
-                        <String fx:value="Ibex 35"/>
-                    </FXCollections>
-                </items>
-            </ComboBox>
+            <VBox spacing="10"
+                  style="-fx-background-color: white; -fx-background-radius: 16; -fx-border-radius: 16;
+                         -fx-border-color: #e6e8ef; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.06), 12, 0.2, 0, 2);">
+                <padding><Insets top="16" right="16" bottom="16" left="16"/></padding>
 
-            <Label text="Hilabeteko ekarpena (€):"/>
-            <TextField fx:id="txtEkarpena" promptText="Adib.: 100"/>
+                <Label text="Parametroak" style="-fx-font-size: 14px; -fx-font-weight: bold;"/>
 
-            <Label text="Hasierako urtea:"/>
-            <TextField fx:id="txtUrtea" promptText="Adib.: 2000"/>
+                <VBox spacing="6">
+                    <Label text="Indizea:" style="-fx-text-fill: #374151;"/>
+                    <ComboBox fx:id="cmbIndizea"
+                              style="-fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: #d7dbe7;">
+                        <items>
+                            <FXCollections fx:factory="observableArrayList">
+                                <String fx:value="S&amp;P 500"/>
+                                <String fx:value="Nasdaq 100"/>
+                                <String fx:value="Ibex 35"/>
+                            </FXCollections>
+                        </items>
+                    </ComboBox>
+                </VBox>
 
-            <Button text="Kalkulatu" onAction="#kalkulatuInbertsioa"/>
-            <Label fx:id="lblEmaitza" wrapText="true" style="-fx-font-size: 14px; -fx-font-weight: bold;"/>
+                <VBox spacing="6">
+                    <Label text="Hilabeteko ekarpena (€):" style="-fx-text-fill: #374151;"/>
+                    <TextField fx:id="txtEkarpena" promptText="Adib.: 100"
+                               style="-fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: #d7dbe7;"/>
+                </VBox>
+
+                <VBox spacing="6">
+                    <Label text="Hasierako urtea:" style="-fx-text-fill: #374151;"/>
+                    <TextField fx:id="txtUrtea" promptText="Adib.: 2000"
+                               style="-fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: #d7dbe7;"/>
+                </VBox>
+
+                <HBox spacing="10">
+                    <Button text="📈 Simulatu" onAction="#kalkulatuInbertsioa"
+                            style="-fx-background-color: #3b82f6; -fx-text-fill: white; -fx-font-weight: bold;
+                                   -fx-background-radius: 12; -fx-padding: 10 14;"/>
+                    <!-- <Button text="Garbitu" onAction="#kalkulatuInbertsioa"
+                            style="-fx-background-color: #f3f4f6; -fx-font-weight: bold;
+                                   -fx-background-radius: 12; -fx-padding: 10 14;"/> -->
+                </HBox>
+
+                <Separator/>
+
+                <Label text="Emaitza" style="-fx-font-size: 14px; -fx-font-weight: bold;"/>
+                <Label fx:id="lblEmaitza" wrapText="true"
+                       style="-fx-text-fill: #111827; -fx-font-size: 13px;"/>
+            </VBox>
+
+            <VBox spacing="8"
+                  style="-fx-background-color: white; -fx-background-radius: 16; -fx-border-radius: 16;
+                         -fx-border-color: #e6e8ef;">
+                <padding><Insets top="12" right="12" bottom="12" left="12"/></padding>
+                <Label text="Oharra" style="-fx-font-size: 13px; -fx-font-weight: bold;"/>
+                <Label wrapText="true"
+                       text="Grafikoan bi kurba ikusiko dituzu: aurrezten bakarrik (inflazioarekin egokitua) eta inbertituta (inflazioarekin egokitua). Horrela ikusten da inflazioaren aurkako aldea."
+                       style="-fx-text-fill: #6b7280;"/>
+            </VBox>
+
         </VBox>
     </left>
 
+    <!-- CENTER: CHART CARD -->
     <center>
-        <LineChart fx:id="grafikoa" title="Inbertsioaren bilakaera" legendVisible="true">
-            <xAxis><NumberAxis fx:id="xAldea" label="Urtea"/></xAxis>
-            <yAxis><NumberAxis fx:id="yAldea" label="Balioa (€)"/></yAxis>
-        </LineChart>
+        <VBox spacing="10">
+            <padding><Insets top="16" right="16" bottom="16" left="10"/></padding>
+
+            <VBox spacing="10"
+                  style="-fx-background-color: white; -fx-background-radius: 16; -fx-border-radius: 16;
+                         -fx-border-color: #e6e8ef; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.06), 12, 0.2, 0, 2);">
+                <padding><Insets top="14" right="14" bottom="14" left="14"/></padding>
+
+                <HBox alignment="CENTER_LEFT">
+                    <VBox spacing="2">
+                        <Label text="Grafikoa"
+                               style="-fx-font-size: 14px; -fx-font-weight: bold;"/>
+                        <Label text="Denborarekin inbertsioaren eta aurrezkiaren bilakaera"
+                               style="-fx-text-fill: #6b7280;"/>
+                    </VBox>
+                    <Region HBox.hgrow="ALWAYS"/>
+                </HBox>
+
+                <LineChart fx:id="grafikoa"
+                           title=""
+                           legendVisible="true"
+                           createSymbols="false"
+                           animated="false"
+                           VBox.vgrow="ALWAYS"
+                           minHeight="400">
+                    <xAxis><NumberAxis fx:id="xAldea" label="Urtea"/></xAxis>
+                    <yAxis><NumberAxis fx:id="yAldea" label="Balioa (€)"/></yAxis>
+                </LineChart>
+
+                <VBox>
+                    <Label text="Tip: probatu hasierako urte zaharrago bat (adib. 1990) eta ikusi aldea nola handitzen den."
+                           style="-fx-text-fill: #6b7280;"/>
+                </VBox>
+
+            </VBox>
+        </VBox>
     </center>
 
 </BorderPane>
