@@ -13,6 +13,8 @@ public interface MarketauxApiService {
             @Query("symbols") String symbols,
             @Query("search") String search,
             @Query("language") String language,
-            @Query("page") Integer page
+            @Query("page") Integer page,
+            @Query("limit") Integer limit
     );
+
 }

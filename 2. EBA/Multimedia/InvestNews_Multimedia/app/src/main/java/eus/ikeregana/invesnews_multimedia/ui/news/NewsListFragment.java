@@ -28,6 +28,12 @@ import androidx.navigation.Navigation;
 
 public class NewsListFragment extends Fragment {
 
+    private int currentPage = 1;
+    private boolean isLastPage = false;
+    private boolean isLoading = false;
+    private NewsViewModel viewModel;
+
+
     public NewsListFragment() {
         super(R.layout.fragment_news_list);
     }
@@ -46,6 +52,35 @@ public class NewsListFragment extends Fragment {
 
         recyclerView.setAdapter(adapter);
 
+        LinearLayoutManager layoutManager = (LinearLayoutManager) recyclerView.getLayoutManager();
+
+        recyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
+            @Override
+            public void onScrolled(@NonNull RecyclerView recyclerView, int dx, int dy) {
+                super.onScrolled(recyclerView, dx, dy);
+
+                if (dy <= 0) return; // solo cuando se hace scroll hacia abajo
+
+                int visibleItemCount = layoutManager.getChildCount();
+                int totalItemCount = layoutManager.getItemCount();
+                int firstVisibleItemPosition = layoutManager.findFirstVisibleItemPosition();
+
+                // cuando queden pocos elementos por mostrar, cargamos la siguiente página
+                int threshold = 2;
+
+                boolean shouldLoadMore =
+                        !isLoading &&
+                                !isLastPage &&
+                                (visibleItemCount + firstVisibleItemPosition) >= (totalItemCount - threshold) &&
+                                firstVisibleItemPosition >= 0;
+
+                if (shouldLoadMore) {
+                    loadNextPage(viewModel);
+                }
+            }
+        });
+
+
         adapter.setOnItemClickListener(article -> {
             Bundle bundle = new Bundle();
             bundle.putString("title", article.getTitle());
@@ -56,15 +91,21 @@ public class NewsListFragment extends Fragment {
                     .navigate(R.id.action_newsListFragment_to_newsDetailFragment, bundle);
         });
 
+        viewModel = new ViewModelProvider(this).get(NewsViewModel.class);
 
-        NewsViewModel viewModel = new ViewModelProvider(this).get(NewsViewModel.class);
-
-        // Observa la lista de noticias y actualiza el RecyclerView
         viewModel.getNews().observe(getViewLifecycleOwner(), articles -> {
             if (articles != null) {
                 adapter.setArticles(articles);
+
+                // Si aún NO se puede hacer scroll hacia abajo (muy pocos items),
+                // pedimos otra página automáticamente.
+                // Esto evita quedarnos "atascados" en 3.
+                if (!recyclerView.canScrollVertically(1) && !isLoading && !isLastPage) {
+                    loadNextPage(viewModel);
+                }
             }
         });
+
 
         viewModel.getError().observe(getViewLifecycleOwner(), errorMsg -> {
             if (errorMsg != null && !errorMsg.isEmpty()) {
@@ -73,17 +114,13 @@ public class NewsListFragment extends Fragment {
         });
 
 
-        viewModel.loadNewsIfNeeded(
-                "g9cgr5hNeJG51DUkti4a0aJ6jvVH6CoNEId1liiT",
-                "TSLA,BTC,ETH",
-                null,
-                "en",
-                1
-        );
+        loadPage(viewModel, currentPage);
 
 
-        viewModel.getLoading().observe(getViewLifecycleOwner(), isLoading -> {
-            if (isLoading != null && isLoading) {
+        viewModel.getLoading().observe(getViewLifecycleOwner(), loading -> {
+            isLoading = (loading != null && loading);
+
+            if (isLoading) {
                 progressBar.setVisibility(View.VISIBLE);
             } else {
                 progressBar.setVisibility(View.GONE);
@@ -91,6 +128,22 @@ public class NewsListFragment extends Fragment {
         });
 
 
-
     }
+
+    private void loadPage(NewsViewModel viewModel, int page) {
+        viewModel.loadNewsIfNeeded(
+                "g9cgr5hNeJG51DUkti4a0aJ6jvVH6CoNEId1liiT",
+                "TSLA,BTC,ETH",
+                null,
+                "en",
+                page
+        );
+    }
+
+    private void loadNextPage(NewsViewModel viewModel) {
+        if (isLastPage) return;
+        currentPage++;
+        loadPage(viewModel, currentPage);
+    }
+
 }
