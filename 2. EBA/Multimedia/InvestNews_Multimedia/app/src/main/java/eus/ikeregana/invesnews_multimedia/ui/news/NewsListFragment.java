@@ -55,6 +55,7 @@ public class NewsListFragment extends Fragment {
         LinearLayoutManager layoutManager = (LinearLayoutManager) recyclerView.getLayoutManager();
 
         recyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
+
             @Override
             public void onScrolled(@NonNull RecyclerView recyclerView, int dx, int dy) {
                 super.onScrolled(recyclerView, dx, dy);
@@ -110,6 +111,10 @@ public class NewsListFragment extends Fragment {
         viewModel.getError().observe(getViewLifecycleOwner(), errorMsg -> {
             if (errorMsg != null && !errorMsg.isEmpty()) {
                 Toast.makeText(requireContext(), errorMsg, Toast.LENGTH_LONG).show();
+
+                if (errorMsg.contains("402")) {
+                    isLastPage = true; // parar paginación por cuota
+                }
             }
         });
 
@@ -124,6 +129,19 @@ public class NewsListFragment extends Fragment {
                 progressBar.setVisibility(View.VISIBLE);
             } else {
                 progressBar.setVisibility(View.GONE);
+            }
+        });
+
+        viewModel.getLastFetchCount().observe(getViewLifecycleOwner(), count -> {
+
+            // Ignorar emisiones nulas
+            if (count == null) return;
+
+            // IMPORTANTE:
+            // - No marcamos fin mientras está cargando
+            // - No marcamos fin en page 1 (evita el 0 inicial)
+            if (!isLoading && currentPage > 1 && count == 0) {
+                isLastPage = true;
             }
         });
 

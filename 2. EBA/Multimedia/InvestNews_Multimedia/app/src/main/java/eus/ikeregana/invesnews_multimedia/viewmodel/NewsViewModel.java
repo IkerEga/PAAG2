@@ -36,6 +36,10 @@ public class NewsViewModel extends AndroidViewModel {
         return repository.getLoading();
     }
 
+    public LiveData<Integer> getLastFetchCount() {
+        return repository.getLastFetchCount();
+    }
+
     public LiveData<String> getError() {
         return repository.getError();
     }

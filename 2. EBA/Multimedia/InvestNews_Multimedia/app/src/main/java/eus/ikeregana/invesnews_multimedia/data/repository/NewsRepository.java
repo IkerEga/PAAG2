@@ -26,13 +26,14 @@ public class NewsRepository {
     private final MutableLiveData<List<ArticleDto>> news = new MutableLiveData<>();
     private final MutableLiveData<Boolean> loading = new MutableLiveData<>(false);
     private final MutableLiveData<String> error = new MutableLiveData<>();
+    private final MutableLiveData<Integer> lastFetchCount = new MutableLiveData<>(0);
+
 
     public NewsRepository(Context context) {
         apiService = RetrofitClient.getApiService();
         AppDatabase db = AppDatabase.getInstance(context);
         favoriteDao = db.favoriteDao();
     }
-
 
     public LiveData<List<ArticleDto>> getNews() {
         return news;
@@ -69,6 +70,7 @@ public class NewsRepository {
                         if (response.isSuccessful() && response.body() != null) {
 
                             List<ArticleDto> newArticles = response.body().getData();
+                            lastFetchCount.setValue(newArticles == null ? 0 : newArticles.size());
 
                             if (newArticles != null && !newArticles.isEmpty()) {
                                 accumulatedNews.addAll(newArticles);
@@ -77,6 +79,7 @@ public class NewsRepository {
                             news.setValue(accumulatedNews);
 
                         } else {
+                            lastFetchCount.setValue(0);
                             error.setValue("Error API: " + response.code());
                         }
                     }
@@ -86,6 +89,7 @@ public class NewsRepository {
                             retrofit2.Call<eus.ikeregana.invesnews_multimedia.data.model.NewsResponse> call,
                             Throwable t
                     ) {
+                        lastFetchCount.setValue(0);
                         loading.setValue(false);
                         error.setValue(t.getMessage());
                     }
@@ -107,6 +111,10 @@ public class NewsRepository {
 
     public void removeFromFavorites(FavoriteEntity favorite) {
         executor.execute(() -> favoriteDao.delete(favorite));
+    }
+
+    public LiveData<Integer> getLastFetchCount() {
+        return lastFetchCount;
     }
 
 
