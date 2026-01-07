@@ -30,34 +30,50 @@ public class QuizClient {
                 }
 
                 if (line.equals("QUESTION_START")) {
-                    String qLine = in.readLine();
-                    if (qLine == null) return;
-                    
-                    System.out.println(qLine);
-                    
-                    if (qLine.equals("Tu respuesta (a/b/c): ")) {
-                        break;
+
+                    while (true) {
+                        String qLine = in.readLine();
+                        if (qLine == null) {
+                            return;
+                        }
+
+                        System.out.println(qLine);
+
+                        if (qLine.startsWith("Tu respuesta")) {
+                            break;
+                        }
+
                     }
-                    
                     String answer;
                     while (true) {
                         answer = scanner.nextLine().trim().toLowerCase();
-                        if (answer.equals("a") || answer.equals("b") || answer.equals("c")) break;
+                        if (answer.equals("a") || answer.equals("b") || answer.equals("c")) {
+                            break;
+                        }
                         System.out.print("Escribe solo a, b o c: ");
                     }
                     out.println(answer);
-                    
-                }else if (line.equals("RESULT_START")) {
+
+                } else if (line.equals("RESULT_START")) {
                     while (true) {
                         String rLine = in.readLine();
-                        if (rLine == null) return;
-                        if (rLine.equals("RESULT_END")) break;
-                        
+                        if (rLine == null) {
+                            return;
+                        }
+                        if (rLine.equals("RESULT_END")) {
+                            break;
+                        }
+
                         System.out.println(rLine);
                     }
-                    break;
                 } else {
                     System.out.println(line);
+                    if (line.startsWith("Choose option") || line.startsWith("Enter your name")) {
+                        String userInput = scanner.nextLine();
+                        out.println(userInput);
+                    }
+                    
+                    if (line.toLowerCase().contains("Adios")) break;
                 }
 
             }
