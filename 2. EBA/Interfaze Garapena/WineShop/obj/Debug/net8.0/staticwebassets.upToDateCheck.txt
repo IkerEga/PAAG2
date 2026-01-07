@@ -20,6 +20,7 @@ wwwroot\images\wine-red.jpg
 wwwroot\images\wine-sparkling.jpg
 wwwroot\images\wine-white.jpg
 wwwroot\images\wine_rose.jpg
+wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -1778,4 +1779,3 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\js\site.js

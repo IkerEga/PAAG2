@@ -3,31 +3,42 @@ package quiz_with_rankig;
 import java.io.*;
 import java.net.*;
 import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class QuizServer {
 
     private static final int PORT = 12345;
+    private static final List<ScoreEntry> ranking = new ArrayList<>(); 
 
     private static final String[] QUESTIONS = {
-        "1) ¿Cuál de los siguientes es un protocolo de transporte orientado a la conexión?\n" +
-        "a) TCP\nb) UDP\nc) IP",
-
-        "2) ¿A qué tipo de aplicación beneficia más el protocolo UDP?\n" +
-        "a) Transferencia de archivos\nb) Videoconferencia y transmisión de voz\nc) Navegación web",
-
-        "3) ¿Cuál es la función del campo \"Reconocimiento\" (ACK) en la cabecera TCP?\n" +
-        "a) Confirmación de entrega de datos\nb) Establecimiento de la conexión inicial\nc) Gestión de la derivación",
-
-        "4) ¿Cuál de los siguientes es un protocolo de transporte sin conexión?\n" +
-        "a) TCP\nb) UDP\nc) FTP",
-
-        "5) ¿Qué tipo de servicio ofrece TCP con respecto a UDP?\n" +
-        "a) Servicio no fiable\nb) Servicio fiable y orientado a la conexión\nc) Dirigido a la televisión"
+        "1) ¿Cuál de los siguientes es un protocolo de transporte orientado a la conexión?\n"
+        + "a) TCP\nb) UDP\nc) IP",
+        "2) ¿A qué tipo de aplicación beneficia más el protocolo UDP?\n"
+        + "a) Transferencia de archivos\nb) Videoconferencia y transmisión de voz\nc) Navegación web",
+        "3) ¿Cuál es la función del campo \"Reconocimiento\" (ACK) en la cabecera TCP?\n"
+        + "a) Confirmación de entrega de datos\nb) Establecimiento de la conexión inicial\nc) Gestión de la derivación",
+        "4) ¿Cuál de los siguientes es un protocolo de transporte sin conexión?\n"
+        + "a) TCP\nb) UDP\nc) FTP",
+        "5) ¿Qué tipo de servicio ofrece TCP con respecto a UDP?\n"
+        + "a) Servicio no fiable\nb) Servicio fiable y orientado a la conexión\nc) Dirigido a la televisión"
     };
 
     private static final String[] CORRECT = {"a", "b", "a", "b", "b"};
+
+    static class ScoreEntry {
+        final String name;
+        final int score;
+        final long time; //El primero que entre al ranking con los mismos puntos se queda
+
+        ScoreEntry(String name, int score, long time) {
+            this.name = name;
+            this.score = score;
+            this.time = time;
+        }
+    }
 
     public static void main(String[] args) {
         ExecutorService pool = Executors.newFixedThreadPool(10);
@@ -48,6 +59,7 @@ public class QuizServer {
     }
 
     private static class ClientHandler implements Runnable {
+
         private final Socket socket;
 
         ClientHandler(Socket socket) {
@@ -57,21 +69,22 @@ public class QuizServer {
         @Override
         public void run() {
             try (
-                Socket s = socket;
-                BufferedReader in = new BufferedReader(new InputStreamReader(s.getInputStream(), StandardCharsets.UTF_8));
-                PrintWriter out = new PrintWriter(new OutputStreamWriter(s.getOutputStream(), StandardCharsets.UTF_8), true)
-            ) {
+                    Socket s = socket; BufferedReader in = new BufferedReader(new InputStreamReader(s.getInputStream(), StandardCharsets.UTF_8)); PrintWriter out = new PrintWriter(new OutputStreamWriter(s.getOutputStream(), StandardCharsets.UTF_8), true)) {
                 out.println("Welcome to QuickQuiz!");
                 out.println("Enter your name:");
-                
-                String name = in.readLine();               
-                if (name == null) return;
+
+                String name = in.readLine();
+                if (name == null) {
+                    return;
+                }
                 name = name.trim();
-                
+
                 while (name.isEmpty()) {
                     out.println("Name cannot be empty. Enter your name:");
                     name = in.readLine();
-                    if (name == null) return;
+                    if (name == null) {
+                        return;
+                    }
                     name = name.trim();
                 }
 
@@ -82,17 +95,20 @@ public class QuizServer {
                     out.println("=== QUICKQUIZ MENU ===");
                     out.println("1) Start quiz (5 questions)");
                     out.println("2) View my last score");
-                    out.println("3) Exit");
-                    out.println("Choose option (1-3):");
+                    out.println("3) View TOP 5 ranking");
+                    out.println("4) Exit");
+                    out.println("Choose option (1-4):");
 
                     String line = in.readLine();
-                    if (line == null) break;
+                    if (line == null) {
+                        break;
+                    }
 
                     int option;
                     try {
                         option = Integer.parseInt(line.trim());
                     } catch (NumberFormatException e) {
-                        out.println("Invalid input. Choose 1-3.");
+                        out.println("Invalid input. Choose 1-4.");
                         continue;
                     }
 
@@ -115,10 +131,15 @@ public class QuizServer {
                             }
                         }
                         case 3 -> {
+                            
+                        }
+                        
+                        case 4 -> {
                             out.println("Goodbye!");
                             running = false;
                         }
-                        default -> out.println("Option out of range. Choose 1-3.");
+                        default ->
+                            out.println("Option out of range. Choose 1-3.");
                     }
                 }
 
@@ -137,7 +158,9 @@ public class QuizServer {
 
                 while (true) {
                     String answer = in.readLine();
-                    if (answer == null) return score;
+                    if (answer == null) {
+                        return score;
+                    }
 
                     answer = answer.trim().toLowerCase();
 
@@ -147,7 +170,9 @@ public class QuizServer {
                         continue;
                     }
 
-                    if (answer.equals(CORRECT[i])) score++;
+                    if (answer.equals(CORRECT[i])) {
+                        score++;
+                    }
                     break;
                 }
             }

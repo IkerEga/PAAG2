@@ -1,0 +1,63 @@
+﻿@model WineShop.Models.BezeroaEskaera
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<h4>BezeroaEskaera</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Index">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Izena" class="control-label"></label>
+                <input asp-for="Izena" class="form-control" />
+                <span asp-validation-for="Izena" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Abizena" class="control-label"></label>
+                <input asp-for="Abizena" class="form-control" />
+                <span asp-validation-for="Abizena" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Helbidea" class="control-label"></label>
+                <input asp-for="Helbidea" class="form-control" />
+                <span asp-validation-for="Helbidea" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Hiria" class="control-label"></label>
+                <input asp-for="Hiria" class="form-control" />
+                <span asp-validation-for="Hiria" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Herrialdea" class="control-label"></label>
+                <input asp-for="Herrialdea" class="form-control" />
+                <span asp-validation-for="Herrialdea" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Postakodea" class="control-label"></label>
+                <input asp-for="Postakodea" class="form-control" />
+                <span asp-validation-for="Postakodea" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Telefonoa" class="control-label"></label>
+                <input asp-for="Telefonoa" class="form-control" />
+                <span asp-validation-for="Telefonoa" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
