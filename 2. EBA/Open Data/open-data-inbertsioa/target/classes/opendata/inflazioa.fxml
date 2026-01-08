@@ -115,7 +115,8 @@
                            createSymbols="false"
                            animated="false"
                            VBox.vgrow="ALWAYS"
-                           minHeight="400">
+                           minHeight="400"
+                           minWidth="600">
                     <xAxis><NumberAxis fx:id="xAldea" label="Urtea"/></xAxis>
                     <yAxis><NumberAxis fx:id="yAldea" label="€ / indize erlatiboa"/></yAxis>
                 </LineChart>

@@ -30,9 +30,9 @@
                     style="-fx-background-color: #eef1ff; -fx-background-radius: 10; -fx-font-weight: bold;"/>
 
             <VBox spacing="2">
-                <Label text="Inbertsioa (DCA)"
+                <Label text="Inbertsioa"
                        style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
-                <Label text="Konparatu: aurrezten bakarrik vs inbertituta (gaurko €tan)"
+                <Label text="DCA simulazioa: aurrezten vs inbertituta (gaurko €tan)"
                        style="-fx-text-fill: #6b7280;"/>
             </VBox>
 
@@ -50,7 +50,7 @@
                          -fx-border-color: #e6e8ef; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.06), 12, 0.2, 0, 2);">
                 <padding><Insets top="16" right="16" bottom="16" left="16"/></padding>
 
-                <Label text="Parametroak" style="-fx-font-size: 14px; -fx-font-weight: bold;"/>
+                <Label text="Sarrerak" style="-fx-font-size: 12px; -fx-font-weight: bold;"/>
 
                 <VBox spacing="6">
                     <Label text="Indizea:" style="-fx-text-fill: #374151;"/>
@@ -79,12 +79,9 @@
                 </VBox>
 
                 <HBox spacing="10">
-                    <Button text="📈 Simulatu" onAction="#kalkulatuInbertsioa"
+                    <Button text="📈 Kalkulatu" onAction="#kalkulatuInbertsioa"
                             style="-fx-background-color: #3b82f6; -fx-text-fill: white; -fx-font-weight: bold;
                                    -fx-background-radius: 12; -fx-padding: 10 14;"/>
-                    <!-- <Button text="Garbitu" onAction="#kalkulatuInbertsioa"
-                            style="-fx-background-color: #f3f4f6; -fx-font-weight: bold;
-                                   -fx-background-radius: 12; -fx-padding: 10 14;"/> -->
                 </HBox>
 
                 <Separator/>
@@ -98,9 +95,10 @@
                   style="-fx-background-color: white; -fx-background-radius: 16; -fx-border-radius: 16;
                          -fx-border-color: #e6e8ef;">
                 <padding><Insets top="12" right="12" bottom="12" left="12"/></padding>
-                <Label text="Oharra" style="-fx-font-size: 13px; -fx-font-weight: bold;"/>
+                <Label text="Oharra"
+                       style="-fx-font-size: 13px; -fx-font-weight: bold;"/>
                 <Label wrapText="true"
-                       text="Grafikoan bi kurba ikusiko dituzu: aurrezten bakarrik (inflazioarekin egokitua) eta inbertituta (inflazioarekin egokitua). Horrela ikusten da inflazioaren aurkako aldea."
+                       text="Grafikoan aurrezten (gaurko €tan) eta inbertituta (gaurko €tan) konparatzen dira, inflazioaren eragina ikus dadin."
                        style="-fx-text-fill: #6b7280;"/>
             </VBox>
 
@@ -121,7 +119,7 @@
                     <VBox spacing="2">
                         <Label text="Grafikoa"
                                style="-fx-font-size: 14px; -fx-font-weight: bold;"/>
-                        <Label text="Denborarekin inbertsioaren eta aurrezkiaren bilakaera"
+                        <Label text="Denborarekin aurrezkiaren eta inbertsioaren bilakaera"
                                style="-fx-text-fill: #6b7280;"/>
                     </VBox>
                     <Region HBox.hgrow="ALWAYS"/>
@@ -133,12 +131,13 @@
                            createSymbols="false"
                            animated="false"
                            VBox.vgrow="ALWAYS"
-                           minHeight="400">
+                           minHeight="400"
+                           minWidth="600">
                     <xAxis><NumberAxis fx:id="xAldea" label="Urtea"/></xAxis>
                     <yAxis><NumberAxis fx:id="yAldea" label="Balioa (€)"/></yAxis>
                 </LineChart>
-
             </VBox>
+
         </VBox>
     </center>
 

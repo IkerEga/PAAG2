@@ -5,6 +5,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import javafx.scene.image.Image;
 
 import java.io.IOException;
 
@@ -14,8 +15,10 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        scene = new Scene(kargatuFXML("menu_nagusia"), 900, 600);
-        stage.setTitle("Open Data - Inbertsioa");
+        scene = new Scene(kargatuFXML("menu_nagusia"), 1200, 600);
+        stage.setTitle("Inflazioa eta Inbertsioa · Open Data");
+        stage.getIcons().add(
+                new Image(App.class.getResourceAsStream("/opendata/images/Inbertsioa-Inflazioa.png")));
         stage.setScene(scene);
         stage.show();
     }

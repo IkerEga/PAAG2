@@ -11,7 +11,7 @@ import java.util.concurrent.Executors;
 public class QuizServer {
 
     private static final int PORT = 12345;
-    private static final List<ScoreEntry> ranking = new ArrayList<>(); 
+    private static final List<ScoreEntry> ranking = new ArrayList<>();
 
     private static final String[] QUESTIONS = {
         "1) ¿Cuál de los siguientes es un protocolo de transporte orientado a la conexión?\n"
@@ -29,6 +29,7 @@ public class QuizServer {
     private static final String[] CORRECT = {"a", "b", "a", "b", "b"};
 
     static class ScoreEntry {
+
         final String name;
         final int score;
         final long time; //El primero que entre al ranking con los mismos puntos se queda
@@ -117,6 +118,8 @@ public class QuizServer {
                             int score = runQuiz(in, out);
                             lastScore = score;
 
+                            addScore(name, score);
+
                             out.println("RESULT_START");
                             out.println("Quiz finished!");
                             out.println("Player: " + name);
@@ -131,15 +134,15 @@ public class QuizServer {
                             }
                         }
                         case 3 -> {
-                            
+                            out.println(getTop5Text());
                         }
-                        
+
                         case 4 -> {
                             out.println("Goodbye!");
                             running = false;
                         }
                         default ->
-                            out.println("Option out of range. Choose 1-3.");
+                            out.println("Option out of range. Choose 1-4.");
                     }
                 }
 
@@ -179,5 +182,35 @@ public class QuizServer {
 
             return score;
         }
+
+        private static synchronized void addScore(String name, int score) {
+            ranking.add(new ScoreEntry(name, score, System.nanoTime()));
+        }
+
+        private static synchronized String getTop5Text() {
+            if (ranking.isEmpty()) {
+                return "Ningun puntuaje todavia";
+            }
+
+            List<ScoreEntry> copy = new ArrayList<>(ranking);
+
+            copy.sort(
+                    java.util.Comparator
+                            .comparingInt((ScoreEntry e) -> e.score).reversed()
+                            .thenComparingLong(e -> e.time)
+            );
+
+            StringBuilder sb = new StringBuilder();
+            sb.append("=== TOP 5 ===\n");
+            int limit = Math.min(5, copy.size());
+
+            for (int i = 0; i < limit; i++) {
+                ScoreEntry e = copy.get(i);
+                sb.append(i + 1).append(") ").append(e.name).append(" - ").append(e.score).append("/").append(QUESTIONS.length).append("\n");
+            }
+
+            return sb.toString();
+        }
+
     }
 }
