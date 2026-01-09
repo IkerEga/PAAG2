@@ -196,13 +196,15 @@ public class QuizServer {
 
             copy.sort(
                     java.util.Comparator
-                            .comparingInt((ScoreEntry e) -> e.score).reversed()
-                            .thenComparingLong(e -> e.time)
+                            .comparingInt((ScoreEntry e) -> e.score) // Para comparar dos ScoreEntry, mira su SCORE. Ordena por ese número.
+                            .reversed() //Al hacer un SORT, siempre pone de menor a mayor, por lo que hay que darle la vuelta con REVERSE para conseguir, de mayor a menor
+                            .thenComparingLong(e -> e.time) // Si dos elementos tienen el mismo score, entonces compara por time
+                    //Aqui no usamos REVERSE porque el que menos tiempo tenga, irá el primero
             );
 
             StringBuilder sb = new StringBuilder();
             sb.append("=== TOP 5 ===\n");
-            int limit = Math.min(5, copy.size());
+            int limit = Math.min(5, copy.size());   //Math.min() devuelve el numero mas pequeño entre los 2
 
             for (int i = 0; i < limit; i++) {
                 ScoreEntry e = copy.get(i);

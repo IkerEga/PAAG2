@@ -43,7 +43,21 @@ public class MainActivity extends AppCompatActivity {
                                 if (trimmed.equals("[]")) {
                                     Toast.makeText(MainActivity.this, "Erabiltzailea edo pasahitza okerra", Toast.LENGTH_SHORT).show();
                                 } else {
-                                    Toast.makeText(MainActivity.this, "Login zuzena! ✅", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(MainActivity.this, "Login zuzena!", Toast.LENGTH_SHORT).show();
+                                    // 1) Ocultamos los controles del login
+                                    etUsuario.setVisibility(View.GONE);
+                                    etPassword.setVisibility(View.GONE);
+                                    btnLogin.setVisibility(View.GONE);
+                                    btnSignUp.setVisibility(View.GONE);
+
+                                    // 2) Mostramos el contenedor del fragment
+                                    findViewById(R.id.fragment_container).setVisibility(View.VISIBLE);
+
+                                    // 3) Cargamos el fragment
+                                    getSupportFragmentManager()
+                                            .beginTransaction()
+                                            .replace(R.id.fragment_container, new HomeFragment())
+                                            .commit();
                                 }
                             });
                         }
