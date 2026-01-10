@@ -1,4 +1,4 @@
-using WineShop.Services;
+﻿using WineShop.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,12 +30,24 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
+//Orden de los Middlewares ----> Navegador → Routing → Auth → Authorization → Session → Controller
+/*
+
+UseRouting → decide qué controller se va a usar
+
+UseAuthentication → mira si hay usuario logueado
+
+UseAuthorization → comprueba permisos ([Authorize])
+
+UseSession → carga datos de sesión
+
+MapControllerRoute → ejecuta el controller
+
+*/
+
 app.UseRouting();
-
 app.UseAuthorization();
-
 app.UseSession();
-
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

@@ -5,7 +5,7 @@ namespace WineShop.Services
 {
     public class ArdoaService : IArdoaService
     {
-        private Uri rutaTodos = new Uri("https://localhost:7049/api/Ardoa/");
+        private Uri rutaTodos = new Uri("https://localhost:7049/api/Ardoa/");   //LLama al API para vinos
         public async Task<IList<ArdoaUpeltegi>> GetMota(int id)
         {
             List<ArdoaUpeltegi> ardoaUpeltegiList = new List<ArdoaUpeltegi>();

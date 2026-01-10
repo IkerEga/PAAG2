@@ -38,6 +38,10 @@ public class SaskiaController : Controller
             Guztira = guztira // <-- aquí incluimos el total
         };
         return View(saskiaViewModel);
+        // Usamos View() cuando esta acción SOLO muestra datos y no cambia estado.
+        // Aquí no hay problema de recargar, porque al refrescar la página
+        // se repite la acción de mostrar, pero no se modifica ningún dato.
+
     }
 
     public async Task<IActionResult> SaskiaGehitu(int id)
@@ -46,6 +50,12 @@ public class SaskiaController : Controller
         await _saskiaService.SaskiaGehitu(id, cart.SaskiaId); //zerbitzu berrian karritoan gehitzeko
         return RedirectToAction("Index", new { id = cart.SaskiaId });
     }
+    // Usamos RedirectToAction en vez de View para evitar el problema de "recargar y duplicar":
+    // Después de añadir al carrito, redirigimos a Index.
+    // Así la URL final es /Saskia/Index y no /Saskia/SaskiaGehitu.
+    // Si el usuario recarga la página, solo se vuelve a mostrar el carrito,
+    // y NO se vuelve a ejecutar la acción de añadir.
+
 
     public async Task<IActionResult> SaskiaGehituAjax(int id)
     {

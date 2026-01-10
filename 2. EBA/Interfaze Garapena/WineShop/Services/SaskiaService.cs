@@ -7,7 +7,7 @@ namespace WineShop.Services
 {
     public class SaskiaService : ISaskiaService
     {
-        private Uri rutaTodos = new Uri("https://localhost:7049/api/SaskiaAlea/");
+        private Uri rutaTodos = new Uri("https://localhost:7049/api/SaskiaAlea/");  //Llama al API para carrito
         private readonly IArdoaService _ardoaService;
         public SaskiaService(IArdoaService ardoaService)
         {

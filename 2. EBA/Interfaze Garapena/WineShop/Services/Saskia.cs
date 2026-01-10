@@ -2,7 +2,7 @@
 
 namespace WineShop.Services
 {
-    public class Saskia
+    public class Saskia //Clase especial: gestiona el id del carrito usando Session/Usuario
     {
         public string SaskiaId { get; set; }
         public const string CartSessionKey = "cartId";
