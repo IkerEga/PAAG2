@@ -15,11 +15,6 @@ Aplikazioa ikuspegi **bisual** eta **praktikoarekin** diseinatuta dago, klasean 
   - [Inbertsioa (DCA)](#inbertsioa-dca)
 - [Datuak eta Open Data](#datuak-eta-open-data)
 - [Arkitektura eta egitura](#arkitektura-eta-egitura)
-- [Instalazioa eta exekuzioa](#instalazioa-eta-exekuzioa)
-- [Zer ikasten da proiektu honekin?](#zer-ikasten-da-proiektu-honekin)
-- [Mugak eta hobekuntza-aukerak](#mugak-eta-hobekuntza-aukerak)
-- [Pantaila-argazkiak](#pantaila-argazkiak)
-- [Lizentzia eta kredituak](#lizentzia-eta-kredituak)
 
 ---
 
