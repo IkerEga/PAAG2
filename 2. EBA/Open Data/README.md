@@ -1,4 +1,4 @@
-# Open Data – Inflazioa eta Inbertsioa (DCA) 📈💶
+# Open Data – Inflazioa eta Inbertsioa (DCA) 
 
 Proiektu akademikoa JavaFX erabiliz garatua, helburu didaktiko argi batekin: **inflazioak** denborarekin diruaren **erosahalmena** nola murrizten duen ulertzea, eta **inbertsio periodikoak (DCA)** indizeetan epe luzera nola lagundu dezakeen inflazioaren eragina **konpentsatzen** eta kapitala **hazten**.
 
